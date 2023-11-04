@@ -12,1810 +12,907 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4434c58a07121dc44864626c363232ca, type: 3}
   m_Name: baseBrain
   m_EditorClassIdentifier: 
-  brain:
-    nodeList:
-    - id: 0
-      value: 0
-      bias: 0.6123991
-      connectedNodes: []
-      layer: 0
-    - id: 1
-      value: 0
-      bias: 0.93665886
-      connectedNodes: []
-      layer: 0
-    - id: 2
-      value: 0
-      bias: -0.47109783
-      connectedNodes: []
-      layer: 0
-    - id: 3
-      value: 0
-      bias: -0.95939493
-      connectedNodes: []
-      layer: 0
-    - id: 4
-      value: 0
-      bias: 0.6265421
-      connectedNodes: []
-      layer: 0
-    - id: 5
-      value: 0
-      bias: -0.3176297
-      connectedNodes: []
-      layer: 0
-    - id: 6
-      value: 0
-      bias: -0.5659125
-      connectedNodes: []
-      layer: 0
-    - id: 7
-      value: 0
-      bias: -0.7389078
-      connectedNodes: []
-      layer: 0
-    - id: 8
-      value: 0
-      bias: -0.43634903
-      connectedNodes: []
-      layer: 0
-    - id: 9
-      value: 0
-      bias: 0.79564476
-      connectedNodes: []
-      layer: 0
-    - id: 10
-      value: 0
-      bias: 0.339972
-      connectedNodes:
-      - nodeId: 0
-        weight: -0.8090942
-      - nodeId: 1
-        weight: 0.65420413
-      - nodeId: 2
-        weight: -0.8802099
-      - nodeId: 3
-        weight: 0.08438885
-      - nodeId: 4
-        weight: 0.43120143
-      - nodeId: 5
-        weight: -0.6624248
-      - nodeId: 6
-        weight: -0.4561733
-      - nodeId: 7
-        weight: -0.4018184
-      - nodeId: 8
-        weight: -0.68387485
-      - nodeId: 9
-        weight: 0.4415073
-      layer: 1
-    - id: 11
-      value: 0
-      bias: 0.40865228
-      connectedNodes:
-      - nodeId: 0
-        weight: -0.049466014
-      - nodeId: 1
-        weight: 0.17246497
-      - nodeId: 2
-        weight: 0.6585834
-      - nodeId: 3
-        weight: -0.54389477
-      - nodeId: 4
-        weight: -0.3497101
-      - nodeId: 5
-        weight: -0.7842655
-      - nodeId: 6
-        weight: -0.78953886
-      - nodeId: 7
-        weight: 0.54610467
-      - nodeId: 8
-        weight: 0.20220673
-      - nodeId: 9
-        weight: 0.009234548
-      layer: 1
-    - id: 12
-      value: 0
-      bias: -0.38787234
-      connectedNodes:
-      - nodeId: 0
-        weight: 0.96365213
-      - nodeId: 1
-        weight: -0.7475383
-      - nodeId: 2
-        weight: 0.41007897
-      - nodeId: 3
-        weight: -0.20257294
-      - nodeId: 4
-        weight: 0.9449825
-      - nodeId: 5
-        weight: -0.1682142
-      - nodeId: 6
-        weight: 0.5226114
-      - nodeId: 7
-        weight: -0.7768805
-      - nodeId: 8
-        weight: -0.61419964
-      - nodeId: 9
-        weight: -0.5432737
-      layer: 1
-    - id: 13
-      value: 0
-      bias: 0.39921233
-      connectedNodes:
-      - nodeId: 0
-        weight: -0.23827612
-      - nodeId: 1
-        weight: 0.9573519
-      - nodeId: 2
-        weight: -0.34841287
-      - nodeId: 3
-        weight: -0.63220286
-      - nodeId: 4
-        weight: -0.18242896
-      - nodeId: 5
-        weight: 0.22277486
-      - nodeId: 6
-        weight: 0.50111556
-      - nodeId: 7
-        weight: 0.2615895
-      - nodeId: 8
-        weight: -0.5946574
-      - nodeId: 9
-        weight: 0.006747842
-      layer: 1
-    - id: 14
-      value: 0
-      bias: 0.05043924
-      connectedNodes:
-      - nodeId: 0
-        weight: 0.50357795
-      - nodeId: 1
-        weight: 0.059720635
-      - nodeId: 2
-        weight: -0.7348802
-      - nodeId: 3
-        weight: -0.8062489
-      - nodeId: 4
-        weight: -0.248407
-      - nodeId: 5
-        weight: 0.065138936
-      - nodeId: 6
-        weight: -0.19249976
-      - nodeId: 7
-        weight: -0.021262765
-      - nodeId: 8
-        weight: -0.88990164
-      - nodeId: 9
-        weight: 0.10624564
-      layer: 1
-    - id: 15
-      value: 0
-      bias: -0.0066093206
-      connectedNodes:
-      - nodeId: 0
-        weight: 0.9457352
-      - nodeId: 1
-        weight: 0.27378604
-      - nodeId: 2
-        weight: 0.315788
-      - nodeId: 3
-        weight: -0.49613416
-      - nodeId: 4
-        weight: 0.07834613
-      - nodeId: 5
-        weight: -0.8238468
-      - nodeId: 6
-        weight: 0.13936365
-      - nodeId: 7
-        weight: 0.46361992
-      - nodeId: 8
-        weight: 0.19660056
-      - nodeId: 9
-        weight: 0.9959171
-      layer: 1
-    - id: 16
-      value: 0
-      bias: 0.02298081
-      connectedNodes:
-      - nodeId: 0
-        weight: -0.83884764
-      - nodeId: 1
-        weight: 0.60114574
-      - nodeId: 2
-        weight: 0.63345146
-      - nodeId: 3
-        weight: -0.2686993
-      - nodeId: 4
-        weight: 0.83736086
-      - nodeId: 5
-        weight: 0.5010574
-      - nodeId: 6
-        weight: -0.7651758
-      - nodeId: 7
-        weight: 0.649719
-      - nodeId: 8
-        weight: -0.83851004
-      - nodeId: 9
-        weight: 0.40887448
-      layer: 1
-    - id: 17
-      value: 0
-      bias: 0.9050238
-      connectedNodes:
-      - nodeId: 0
-        weight: -0.24511087
-      - nodeId: 1
-        weight: -0.47065246
-      - nodeId: 2
-        weight: -0.4975103
-      - nodeId: 3
-        weight: -0.95879126
-      - nodeId: 4
-        weight: 0.9378376
-      - nodeId: 5
-        weight: -0.2823497
-      - nodeId: 6
-        weight: -0.0008250475
-      - nodeId: 7
-        weight: 0.008118272
-      - nodeId: 8
-        weight: 0.24972713
-      - nodeId: 9
-        weight: -0.32686818
-      layer: 1
-    - id: 18
-      value: 0
-      bias: 0.08781922
-      connectedNodes:
-      - nodeId: 0
-        weight: 0.7650826
-      - nodeId: 1
-        weight: -0.59028983
-      - nodeId: 2
-        weight: 0.7116277
-      - nodeId: 3
-        weight: -0.74160814
-      - nodeId: 4
-        weight: 0.50490594
-      - nodeId: 5
-        weight: -0.37216318
-      - nodeId: 6
-        weight: 0.20906007
-      - nodeId: 7
-        weight: 0.5445874
-      - nodeId: 8
-        weight: 0.18741596
-      - nodeId: 9
-        weight: -0.7691982
-      layer: 1
-    - id: 19
-      value: 0
-      bias: -0.30435765
-      connectedNodes:
-      - nodeId: 0
-        weight: 0.8403578
-      - nodeId: 1
-        weight: -0.39859116
-      - nodeId: 2
-        weight: 0.37820074
-      - nodeId: 3
-        weight: 0.75126815
-      - nodeId: 4
-        weight: 0.19907868
-      - nodeId: 5
-        weight: 0.91184354
-      - nodeId: 6
-        weight: 0.29723188
-      - nodeId: 7
-        weight: -0.093946576
-      - nodeId: 8
-        weight: 0.17651713
-      - nodeId: 9
-        weight: 0.7972946
-      layer: 1
-    - id: 20
-      value: 0
-      bias: -0.85575986
-      connectedNodes:
-      - nodeId: 10
-        weight: -0.0914768
-      - nodeId: 11
-        weight: -0.07454765
-      - nodeId: 12
-        weight: -0.8586166
-      - nodeId: 13
-        weight: 0.8786974
-      - nodeId: 14
-        weight: -0.024570346
-      - nodeId: 15
-        weight: -0.394194
-      - nodeId: 16
-        weight: 0.46636125
-      - nodeId: 17
-        weight: 0.88876534
-      - nodeId: 18
-        weight: 0.80952907
-      - nodeId: 19
-        weight: -0.6602993
-      layer: 2
-    - id: 21
-      value: 0
-      bias: -0.3262726
-      connectedNodes:
-      - nodeId: 10
-        weight: 0.667459
-      - nodeId: 11
-        weight: 0.2804992
-      - nodeId: 12
-        weight: 0.06852591
-      - nodeId: 13
-        weight: -0.49287164
-      - nodeId: 14
-        weight: 0.79215336
-      - nodeId: 15
-        weight: 0.30588052
-      - nodeId: 16
-        weight: -0.2673458
-      - nodeId: 17
-        weight: -0.59619474
-      - nodeId: 18
-        weight: 0.4390945
-      - nodeId: 19
-        weight: 0.32977006
-      layer: 2
-    - id: 22
-      value: 0
-      bias: 0.56480503
-      connectedNodes:
-      - nodeId: 10
-        weight: 0.18506944
-      - nodeId: 11
-        weight: 0.04173243
-      - nodeId: 12
-        weight: 0.18298733
-      - nodeId: 13
-        weight: -0.9640312
-      - nodeId: 14
-        weight: 0.96063495
-      - nodeId: 15
-        weight: 0.40219685
-      - nodeId: 16
-        weight: 0.42124888
-      - nodeId: 17
-        weight: -0.9017191
-      - nodeId: 18
-        weight: -0.57369375
-      - nodeId: 19
-        weight: -0.8132601
-      layer: 2
-    - id: 23
-      value: 0
-      bias: -0.06896341
-      connectedNodes:
-      - nodeId: 10
-        weight: 0.9138367
-      - nodeId: 11
-        weight: 0.5584924
-      - nodeId: 12
-        weight: -0.71535826
-      - nodeId: 13
-        weight: -0.06373322
-      - nodeId: 14
-        weight: -0.61066556
-      - nodeId: 15
-        weight: -0.07863438
-      - nodeId: 16
-        weight: 0.2174536
-      - nodeId: 17
-        weight: -0.5437155
-      - nodeId: 18
-        weight: 0.08245695
-      - nodeId: 19
-        weight: 0.86752677
-      layer: 2
-    - id: 24
-      value: 0
-      bias: -0.109794736
-      connectedNodes:
-      - nodeId: 10
-        weight: 0.4520819
-      - nodeId: 11
-        weight: -0.55314183
-      - nodeId: 12
-        weight: 0.3463547
-      - nodeId: 13
-        weight: -0.612057
-      - nodeId: 14
-        weight: 0.16169298
-      - nodeId: 15
-        weight: 0.3208737
-      - nodeId: 16
-        weight: 0.42764923
-      - nodeId: 17
-        weight: -0.4010073
-      - nodeId: 18
-        weight: -0.78218985
-      - nodeId: 19
-        weight: -0.891675
-      layer: 2
-    - id: 25
-      value: 0
-      bias: 0.20894992
-      connectedNodes:
-      - nodeId: 10
-        weight: -0.7866304
-      - nodeId: 11
-        weight: -0.1243006
-      - nodeId: 12
-        weight: -0.087423444
-      - nodeId: 13
-        weight: 0.12366855
-      - nodeId: 14
-        weight: 0.7687509
-      - nodeId: 15
-        weight: -0.89996886
-      - nodeId: 16
-        weight: 0.816015
-      - nodeId: 17
-        weight: -0.23998582
-      - nodeId: 18
-        weight: -0.0968765
-      - nodeId: 19
-        weight: 0.12184179
-      layer: 2
-    - id: 26
-      value: 0
-      bias: 0.36693618
-      connectedNodes:
-      - nodeId: 10
-        weight: -0.60471106
-      - nodeId: 11
-        weight: -0.2036618
-      - nodeId: 12
-        weight: 0.44630453
-      - nodeId: 13
-        weight: -0.2116512
-      - nodeId: 14
-        weight: -0.98331237
-      - nodeId: 15
-        weight: 0.6615863
-      - nodeId: 16
-        weight: 0.6962795
-      - nodeId: 17
-        weight: -0.16266453
-      - nodeId: 18
-        weight: -0.43350065
-      - nodeId: 19
-        weight: 0.322813
-      layer: 2
-    - id: 27
-      value: 0
-      bias: -0.8585181
-      connectedNodes:
-      - nodeId: 10
-        weight: 0.08939874
-      - nodeId: 11
-        weight: -0.14144957
-      - nodeId: 12
-        weight: 0.38243768
-      - nodeId: 13
-        weight: 0.9820223
-      - nodeId: 14
-        weight: -0.83167315
-      - nodeId: 15
-        weight: -0.58641076
-      - nodeId: 16
-        weight: -0.2375828
-      - nodeId: 17
-        weight: 0.30059502
-      - nodeId: 18
-        weight: 0.83035016
-      - nodeId: 19
-        weight: -0.5484042
-      layer: 2
-    - id: 28
-      value: 0
-      bias: -0.30751312
-      connectedNodes:
-      - nodeId: 10
-        weight: -0.8380184
-      - nodeId: 11
-        weight: 0.9390447
-      - nodeId: 12
-        weight: -0.81600523
-      - nodeId: 13
-        weight: -0.36627162
-      - nodeId: 14
-        weight: 0.71767974
-      - nodeId: 15
-        weight: 0.6511755
-      - nodeId: 16
-        weight: -0.9004619
-      - nodeId: 17
-        weight: -0.5219412
-      - nodeId: 18
-        weight: 0.05862248
-      - nodeId: 19
-        weight: -0.5051632
-      layer: 2
-    - id: 29
-      value: 0
-      bias: -0.69973016
-      connectedNodes:
-      - nodeId: 10
-        weight: -0.06634748
-      - nodeId: 11
-        weight: -0.49929464
-      - nodeId: 12
-        weight: -0.7633977
-      - nodeId: 13
-        weight: 0.3101332
-      - nodeId: 14
-        weight: -0.3501693
-      - nodeId: 15
-        weight: -0.6546316
-      - nodeId: 16
-        weight: 0.67882824
-      - nodeId: 17
-        weight: -0.17314517
-      - nodeId: 18
-        weight: 0.912822
-      - nodeId: 19
-        weight: 0.35305664
-      layer: 2
-    - id: 30
-      value: 0
-      bias: 0.6056571
-      connectedNodes:
-      - nodeId: 20
-        weight: 0.60701895
-      - nodeId: 21
-        weight: -0.8444612
-      - nodeId: 22
-        weight: 0.4551997
-      - nodeId: 23
-        weight: -0.1852876
-      - nodeId: 24
-        weight: 0.56121707
-      - nodeId: 25
-        weight: -0.9384413
-      - nodeId: 26
-        weight: 0.96874046
-      - nodeId: 27
-        weight: -0.5669069
-      - nodeId: 28
-        weight: -0.6148319
-      - nodeId: 29
-        weight: 0.5620253
-      layer: 3
-    - id: 31
-      value: 0
-      bias: 0.011368632
-      connectedNodes:
-      - nodeId: 20
-        weight: -0.93293977
-      - nodeId: 21
-        weight: 0.59561896
-      - nodeId: 22
-        weight: -0.303496
-      - nodeId: 23
-        weight: 0.6978433
-      - nodeId: 24
-        weight: -0.34995043
-      - nodeId: 25
-        weight: 0.80400753
-      - nodeId: 26
-        weight: -0.12669837
-      - nodeId: 27
-        weight: -0.13482225
-      - nodeId: 28
-        weight: 0.36657926
-      - nodeId: 29
-        weight: -0.88980055
-      layer: 3
-    - id: 32
-      value: 0
-      bias: 0.06332338
-      connectedNodes:
-      - nodeId: 20
-        weight: 0.9388008
-      - nodeId: 21
-        weight: 0.86440516
-      - nodeId: 22
-        weight: 0.8554344
-      - nodeId: 23
-        weight: 0.9748075
-      - nodeId: 24
-        weight: -0.12047088
-      - nodeId: 25
-        weight: 0.90945244
-      - nodeId: 26
-        weight: -0.18101704
-      - nodeId: 27
-        weight: 0.7745428
-      - nodeId: 28
-        weight: -0.5697565
-      - nodeId: 29
-        weight: 0.8244791
-      layer: 3
-    - id: 33
-      value: 0
-      bias: -0.64857125
-      connectedNodes:
-      - nodeId: 20
-        weight: 0.95850277
-      - nodeId: 21
-        weight: 0.867048
-      - nodeId: 22
-        weight: -0.17262256
-      - nodeId: 23
-        weight: 0.17238128
-      - nodeId: 24
-        weight: -0.45779836
-      - nodeId: 25
-        weight: 0.57764983
-      - nodeId: 26
-        weight: -0.5669713
-      - nodeId: 27
-        weight: -0.008628488
-      - nodeId: 28
-        weight: -0.21870887
-      - nodeId: 29
-        weight: 0.20922172
-      layer: 3
-    - id: 34
-      value: 0
-      bias: -0.6475589
-      connectedNodes:
-      - nodeId: 20
-        weight: 0.035487056
-      - nodeId: 21
-        weight: 0.32071897
-      - nodeId: 22
-        weight: -0.9024017
-      - nodeId: 23
-        weight: 0.14825284
-      - nodeId: 24
-        weight: 0.2830777
-      - nodeId: 25
-        weight: 0.345803
-      - nodeId: 26
-        weight: 0.37593982
-      - nodeId: 27
-        weight: 0.35233423
-      - nodeId: 28
-        weight: 0.5347476
-      - nodeId: 29
-        weight: 0.82613516
-      layer: 3
-    - id: 35
-      value: 0
-      bias: -0.5645642
-      connectedNodes:
-      - nodeId: 20
-        weight: -0.24428117
-      - nodeId: 21
-        weight: -0.30986416
-      - nodeId: 22
-        weight: 0.70768356
-      - nodeId: 23
-        weight: 0.9628234
-      - nodeId: 24
-        weight: -0.523376
-      - nodeId: 25
-        weight: -0.9658675
-      - nodeId: 26
-        weight: -0.6542473
-      - nodeId: 27
-        weight: 0.19704974
-      - nodeId: 28
-        weight: -0.31145585
-      - nodeId: 29
-        weight: -0.29578102
-      layer: 3
-    - id: 36
-      value: 0
-      bias: 0.1754719
-      connectedNodes:
-      - nodeId: 20
-        weight: -0.63793325
-      - nodeId: 21
-        weight: -0.20641387
-      - nodeId: 22
-        weight: 0.55483294
-      - nodeId: 23
-        weight: 0.175861
-      - nodeId: 24
-        weight: -0.5726495
-      - nodeId: 25
-        weight: 0.7508807
-      - nodeId: 26
-        weight: 0.7647934
-      - nodeId: 27
-        weight: -0.20245516
-      - nodeId: 28
-        weight: 0.003732562
-      - nodeId: 29
-        weight: -0.15991127
-      layer: 3
-    - id: 37
-      value: 0
-      bias: 0.3553867
-      connectedNodes:
-      - nodeId: 20
-        weight: -0.28062403
-      - nodeId: 21
-        weight: -0.37944376
-      - nodeId: 22
-        weight: 0.18625963
-      - nodeId: 23
-        weight: -0.8239207
-      - nodeId: 24
-        weight: 0.2136668
-      - nodeId: 25
-        weight: -0.9357321
-      - nodeId: 26
-        weight: 0.47768757
-      - nodeId: 27
-        weight: 0.38140604
-      - nodeId: 28
-        weight: 0.36445138
-      - nodeId: 29
-        weight: -0.8501041
-      layer: 3
-    - id: 38
-      value: 0
-      bias: 0.5271225
-      connectedNodes:
-      - nodeId: 20
-        weight: 0.108148694
-      - nodeId: 21
-        weight: 0.7290859
-      - nodeId: 22
-        weight: 0.8307705
-      - nodeId: 23
-        weight: -0.0008150339
-      - nodeId: 24
-        weight: 0.7152803
-      - nodeId: 25
-        weight: -0.39960992
-      - nodeId: 26
-        weight: -0.6277282
-      - nodeId: 27
-        weight: -0.051534772
-      - nodeId: 28
-        weight: -0.20307386
-      - nodeId: 29
-        weight: -0.58740973
-      layer: 3
-    - id: 39
-      value: 0
-      bias: 0.7163019
-      connectedNodes:
-      - nodeId: 20
-        weight: 0.70144033
-      - nodeId: 21
-        weight: 0.4910073
-      - nodeId: 22
-        weight: 0.48018548
-      - nodeId: 23
-        weight: 0.7460699
-      - nodeId: 24
-        weight: 0.65879273
-      - nodeId: 25
-        weight: -0.98852944
-      - nodeId: 26
-        weight: 0.97327065
-      - nodeId: 27
-        weight: 0.940881
-      - nodeId: 28
-        weight: -0.30553877
-      - nodeId: 29
-        weight: -0.99246526
-      layer: 3
-    - id: 40
-      value: 0
-      bias: 0.2580907
-      connectedNodes:
-      - nodeId: 30
-        weight: 0.6757853
-      - nodeId: 31
-        weight: 0.4764094
-      - nodeId: 32
-        weight: -0.50978446
-      - nodeId: 33
-        weight: -0.8628657
-      - nodeId: 34
-        weight: -0.4545647
-      - nodeId: 35
-        weight: 0.8480079
-      - nodeId: 36
-        weight: 0.59972334
-      - nodeId: 37
-        weight: 0.8348751
-      - nodeId: 38
-        weight: -0.34828007
-      - nodeId: 39
-        weight: -0.87173796
-      layer: 4
-    - id: 41
-      value: 0
-      bias: 0.6605303
-      connectedNodes:
-      - nodeId: 30
-        weight: 0.3136091
-      - nodeId: 31
-        weight: -0.13984382
-      - nodeId: 32
-        weight: -0.9217391
-      - nodeId: 33
-        weight: 0.34504983
-      - nodeId: 34
-        weight: 0.35163304
-      - nodeId: 35
-        weight: -0.019582152
-      - nodeId: 36
-        weight: -0.70329237
-      - nodeId: 37
-        weight: 0.099594474
-      - nodeId: 38
-        weight: 0.76170754
-      - nodeId: 39
-        weight: -0.39668357
-      layer: 4
-    - id: 42
-      value: 0
-      bias: -0.664032
-      connectedNodes:
-      - nodeId: 30
-        weight: 0.6796808
-      - nodeId: 31
-        weight: 0.9652231
-      - nodeId: 32
-        weight: -0.89142656
-      - nodeId: 33
-        weight: 0.95311975
-      - nodeId: 34
-        weight: -0.21013129
-      - nodeId: 35
-        weight: -0.84878826
-      - nodeId: 36
-        weight: -0.7551694
-      - nodeId: 37
-        weight: -0.4838127
-      - nodeId: 38
-        weight: 0.9748931
-      - nodeId: 39
-        weight: -0.15571487
-      layer: 4
-    - id: 43
-      value: 0
-      bias: 0.74218774
-      connectedNodes:
-      - nodeId: 30
-        weight: 0.3021445
-      - nodeId: 31
-        weight: -0.44062006
-      - nodeId: 32
-        weight: -0.73265505
-      - nodeId: 33
-        weight: 0.9445715
-      - nodeId: 34
-        weight: -0.28147686
-      - nodeId: 35
-        weight: 0.8502426
-      - nodeId: 36
-        weight: 0.2101947
-      - nodeId: 37
-        weight: -0.7857642
-      - nodeId: 38
-        weight: 0.4431784
-      - nodeId: 39
-        weight: -0.40716708
-      layer: 4
-    maxLayer: 4
-    powerValue: 0
-  nodeList:
-  - id: 0
-    value: 0
-    bias: 0.6123991
-    connectedNodes: []
-    layer: 0
-  - id: 1
-    value: 0
-    bias: 0.93665886
-    connectedNodes: []
-    layer: 0
-  - id: 2
-    value: 0
-    bias: -0.47109783
-    connectedNodes: []
-    layer: 0
-  - id: 3
-    value: 0
-    bias: -0.95939493
-    connectedNodes: []
-    layer: 0
-  - id: 4
-    value: 0
-    bias: 0.6265421
-    connectedNodes: []
-    layer: 0
-  - id: 5
-    value: 0
-    bias: -0.3176297
-    connectedNodes: []
-    layer: 0
-  - id: 6
-    value: 0
-    bias: -0.5659125
-    connectedNodes: []
-    layer: 0
-  - id: 7
-    value: 0
-    bias: -0.7389078
-    connectedNodes: []
-    layer: 0
-  - id: 8
-    value: 0
-    bias: -0.43634903
-    connectedNodes: []
-    layer: 0
-  - id: 9
-    value: 0
-    bias: 0.79564476
-    connectedNodes: []
-    layer: 0
-  - id: 10
-    value: 0
-    bias: 0.339972
-    connectedNodes:
-    - nodeId: 0
-      weight: -0.8090942
-    - nodeId: 1
-      weight: 0.65420413
-    - nodeId: 2
-      weight: -0.8802099
-    - nodeId: 3
-      weight: 0.08438885
-    - nodeId: 4
-      weight: 0.43120143
-    - nodeId: 5
-      weight: -0.6624248
-    - nodeId: 6
-      weight: -0.4561733
-    - nodeId: 7
-      weight: -0.4018184
-    - nodeId: 8
-      weight: -0.68387485
-    - nodeId: 9
-      weight: 0.4415073
-    layer: 1
-  - id: 11
-    value: 0
-    bias: 0.40865228
-    connectedNodes:
-    - nodeId: 0
-      weight: -0.049466014
-    - nodeId: 1
-      weight: 0.17246497
-    - nodeId: 2
-      weight: 0.6585834
-    - nodeId: 3
-      weight: -0.54389477
-    - nodeId: 4
-      weight: -0.3497101
-    - nodeId: 5
-      weight: -0.7842655
-    - nodeId: 6
-      weight: -0.78953886
-    - nodeId: 7
-      weight: 0.54610467
-    - nodeId: 8
-      weight: 0.20220673
-    - nodeId: 9
-      weight: 0.009234548
-    layer: 1
-  - id: 12
-    value: 0
-    bias: -0.38787234
-    connectedNodes:
-    - nodeId: 0
-      weight: 0.96365213
-    - nodeId: 1
-      weight: -0.7475383
-    - nodeId: 2
-      weight: 0.41007897
-    - nodeId: 3
-      weight: -0.20257294
-    - nodeId: 4
-      weight: 0.9449825
-    - nodeId: 5
-      weight: -0.1682142
-    - nodeId: 6
-      weight: 0.5226114
-    - nodeId: 7
-      weight: -0.7768805
-    - nodeId: 8
-      weight: -0.61419964
-    - nodeId: 9
-      weight: -0.5432737
-    layer: 1
-  - id: 13
-    value: 0
-    bias: 0.39921233
-    connectedNodes:
-    - nodeId: 0
-      weight: -0.23827612
-    - nodeId: 1
-      weight: 0.9573519
-    - nodeId: 2
-      weight: -0.34841287
-    - nodeId: 3
-      weight: -0.63220286
-    - nodeId: 4
-      weight: -0.18242896
-    - nodeId: 5
-      weight: 0.22277486
-    - nodeId: 6
-      weight: 0.50111556
-    - nodeId: 7
-      weight: 0.2615895
-    - nodeId: 8
-      weight: -0.5946574
-    - nodeId: 9
-      weight: 0.006747842
-    layer: 1
-  - id: 14
-    value: 0
-    bias: 0.05043924
-    connectedNodes:
-    - nodeId: 0
-      weight: 0.50357795
-    - nodeId: 1
-      weight: 0.059720635
-    - nodeId: 2
-      weight: -0.7348802
-    - nodeId: 3
-      weight: -0.8062489
-    - nodeId: 4
-      weight: -0.248407
-    - nodeId: 5
-      weight: 0.065138936
-    - nodeId: 6
-      weight: -0.19249976
-    - nodeId: 7
-      weight: -0.021262765
-    - nodeId: 8
-      weight: -0.88990164
-    - nodeId: 9
-      weight: 0.10624564
-    layer: 1
-  - id: 15
-    value: 0
-    bias: -0.0066093206
-    connectedNodes:
-    - nodeId: 0
-      weight: 0.9457352
-    - nodeId: 1
-      weight: 0.27378604
-    - nodeId: 2
-      weight: 0.315788
-    - nodeId: 3
-      weight: -0.49613416
-    - nodeId: 4
-      weight: 0.07834613
-    - nodeId: 5
-      weight: -0.8238468
-    - nodeId: 6
-      weight: 0.13936365
-    - nodeId: 7
-      weight: 0.46361992
-    - nodeId: 8
-      weight: 0.19660056
-    - nodeId: 9
-      weight: 0.9959171
-    layer: 1
-  - id: 16
-    value: 0
-    bias: 0.02298081
-    connectedNodes:
-    - nodeId: 0
-      weight: -0.83884764
-    - nodeId: 1
-      weight: 0.60114574
-    - nodeId: 2
-      weight: 0.63345146
-    - nodeId: 3
-      weight: -0.2686993
-    - nodeId: 4
-      weight: 0.83736086
-    - nodeId: 5
-      weight: 0.5010574
-    - nodeId: 6
-      weight: -0.7651758
-    - nodeId: 7
-      weight: 0.649719
-    - nodeId: 8
-      weight: -0.83851004
-    - nodeId: 9
-      weight: 0.40887448
-    layer: 1
-  - id: 17
-    value: 0
-    bias: 0.9050238
-    connectedNodes:
-    - nodeId: 0
-      weight: -0.24511087
-    - nodeId: 1
-      weight: -0.47065246
-    - nodeId: 2
-      weight: -0.4975103
-    - nodeId: 3
-      weight: -0.95879126
-    - nodeId: 4
-      weight: 0.9378376
-    - nodeId: 5
-      weight: -0.2823497
-    - nodeId: 6
-      weight: -0.0008250475
-    - nodeId: 7
-      weight: 0.008118272
-    - nodeId: 8
-      weight: 0.24972713
-    - nodeId: 9
-      weight: -0.32686818
-    layer: 1
-  - id: 18
-    value: 0
-    bias: 0.08781922
-    connectedNodes:
-    - nodeId: 0
-      weight: 0.7650826
-    - nodeId: 1
-      weight: -0.59028983
-    - nodeId: 2
-      weight: 0.7116277
-    - nodeId: 3
-      weight: -0.74160814
-    - nodeId: 4
-      weight: 0.50490594
-    - nodeId: 5
-      weight: -0.37216318
-    - nodeId: 6
-      weight: 0.20906007
-    - nodeId: 7
-      weight: 0.5445874
-    - nodeId: 8
-      weight: 0.18741596
-    - nodeId: 9
-      weight: -0.7691982
-    layer: 1
-  - id: 19
-    value: 0
-    bias: -0.30435765
-    connectedNodes:
-    - nodeId: 0
-      weight: 0.8403578
-    - nodeId: 1
-      weight: -0.39859116
-    - nodeId: 2
-      weight: 0.37820074
-    - nodeId: 3
-      weight: 0.75126815
-    - nodeId: 4
-      weight: 0.19907868
-    - nodeId: 5
-      weight: 0.91184354
-    - nodeId: 6
-      weight: 0.29723188
-    - nodeId: 7
-      weight: -0.093946576
-    - nodeId: 8
-      weight: 0.17651713
-    - nodeId: 9
-      weight: 0.7972946
-    layer: 1
-  - id: 20
-    value: 0
-    bias: -0.85575986
-    connectedNodes:
-    - nodeId: 10
-      weight: -0.0914768
-    - nodeId: 11
-      weight: -0.07454765
-    - nodeId: 12
-      weight: -0.8586166
-    - nodeId: 13
-      weight: 0.8786974
-    - nodeId: 14
-      weight: -0.024570346
-    - nodeId: 15
-      weight: -0.394194
-    - nodeId: 16
-      weight: 0.46636125
-    - nodeId: 17
-      weight: 0.88876534
-    - nodeId: 18
-      weight: 0.80952907
-    - nodeId: 19
-      weight: -0.6602993
-    layer: 2
-  - id: 21
-    value: 0
-    bias: -0.3262726
-    connectedNodes:
-    - nodeId: 10
-      weight: 0.667459
-    - nodeId: 11
-      weight: 0.2804992
-    - nodeId: 12
-      weight: 0.06852591
-    - nodeId: 13
-      weight: -0.49287164
-    - nodeId: 14
-      weight: 0.79215336
-    - nodeId: 15
-      weight: 0.30588052
-    - nodeId: 16
-      weight: -0.2673458
-    - nodeId: 17
-      weight: -0.59619474
-    - nodeId: 18
-      weight: 0.4390945
-    - nodeId: 19
-      weight: 0.32977006
-    layer: 2
-  - id: 22
-    value: 0
-    bias: 0.56480503
-    connectedNodes:
-    - nodeId: 10
-      weight: 0.18506944
-    - nodeId: 11
-      weight: 0.04173243
-    - nodeId: 12
-      weight: 0.18298733
-    - nodeId: 13
-      weight: -0.9640312
-    - nodeId: 14
-      weight: 0.96063495
-    - nodeId: 15
-      weight: 0.40219685
-    - nodeId: 16
-      weight: 0.42124888
-    - nodeId: 17
-      weight: -0.9017191
-    - nodeId: 18
-      weight: -0.57369375
-    - nodeId: 19
-      weight: -0.8132601
-    layer: 2
-  - id: 23
-    value: 0
-    bias: -0.06896341
-    connectedNodes:
-    - nodeId: 10
-      weight: 0.9138367
-    - nodeId: 11
-      weight: 0.5584924
-    - nodeId: 12
-      weight: -0.71535826
-    - nodeId: 13
-      weight: -0.06373322
-    - nodeId: 14
-      weight: -0.61066556
-    - nodeId: 15
-      weight: -0.07863438
-    - nodeId: 16
-      weight: 0.2174536
-    - nodeId: 17
-      weight: -0.5437155
-    - nodeId: 18
-      weight: 0.08245695
-    - nodeId: 19
-      weight: 0.86752677
-    layer: 2
-  - id: 24
-    value: 0
-    bias: -0.109794736
-    connectedNodes:
-    - nodeId: 10
-      weight: 0.4520819
-    - nodeId: 11
-      weight: -0.55314183
-    - nodeId: 12
-      weight: 0.3463547
-    - nodeId: 13
-      weight: -0.612057
-    - nodeId: 14
-      weight: 0.16169298
-    - nodeId: 15
-      weight: 0.3208737
-    - nodeId: 16
-      weight: 0.42764923
-    - nodeId: 17
-      weight: -0.4010073
-    - nodeId: 18
-      weight: -0.78218985
-    - nodeId: 19
-      weight: -0.891675
-    layer: 2
-  - id: 25
-    value: 0
-    bias: 0.20894992
-    connectedNodes:
-    - nodeId: 10
-      weight: -0.7866304
-    - nodeId: 11
-      weight: -0.1243006
-    - nodeId: 12
-      weight: -0.087423444
-    - nodeId: 13
-      weight: 0.12366855
-    - nodeId: 14
-      weight: 0.7687509
-    - nodeId: 15
-      weight: -0.89996886
-    - nodeId: 16
-      weight: 0.816015
-    - nodeId: 17
-      weight: -0.23998582
-    - nodeId: 18
-      weight: -0.0968765
-    - nodeId: 19
-      weight: 0.12184179
-    layer: 2
-  - id: 26
-    value: 0
-    bias: 0.36693618
-    connectedNodes:
-    - nodeId: 10
-      weight: -0.60471106
-    - nodeId: 11
-      weight: -0.2036618
-    - nodeId: 12
-      weight: 0.44630453
-    - nodeId: 13
-      weight: -0.2116512
-    - nodeId: 14
-      weight: -0.98331237
-    - nodeId: 15
-      weight: 0.6615863
-    - nodeId: 16
-      weight: 0.6962795
-    - nodeId: 17
-      weight: -0.16266453
-    - nodeId: 18
-      weight: -0.43350065
-    - nodeId: 19
-      weight: 0.322813
-    layer: 2
-  - id: 27
-    value: 0
-    bias: -0.8585181
-    connectedNodes:
-    - nodeId: 10
-      weight: 0.08939874
-    - nodeId: 11
-      weight: -0.14144957
-    - nodeId: 12
-      weight: 0.38243768
-    - nodeId: 13
-      weight: 0.9820223
-    - nodeId: 14
-      weight: -0.83167315
-    - nodeId: 15
-      weight: -0.58641076
-    - nodeId: 16
-      weight: -0.2375828
-    - nodeId: 17
-      weight: 0.30059502
-    - nodeId: 18
-      weight: 0.83035016
-    - nodeId: 19
-      weight: -0.5484042
-    layer: 2
-  - id: 28
-    value: 0
-    bias: -0.30751312
-    connectedNodes:
-    - nodeId: 10
-      weight: -0.8380184
-    - nodeId: 11
-      weight: 0.9390447
-    - nodeId: 12
-      weight: -0.81600523
-    - nodeId: 13
-      weight: -0.36627162
-    - nodeId: 14
-      weight: 0.71767974
-    - nodeId: 15
-      weight: 0.6511755
-    - nodeId: 16
-      weight: -0.9004619
-    - nodeId: 17
-      weight: -0.5219412
-    - nodeId: 18
-      weight: 0.05862248
-    - nodeId: 19
-      weight: -0.5051632
-    layer: 2
-  - id: 29
-    value: 0
-    bias: -0.69973016
-    connectedNodes:
-    - nodeId: 10
-      weight: -0.06634748
-    - nodeId: 11
-      weight: -0.49929464
-    - nodeId: 12
-      weight: -0.7633977
-    - nodeId: 13
-      weight: 0.3101332
-    - nodeId: 14
-      weight: -0.3501693
-    - nodeId: 15
-      weight: -0.6546316
-    - nodeId: 16
-      weight: 0.67882824
-    - nodeId: 17
-      weight: -0.17314517
-    - nodeId: 18
-      weight: 0.912822
-    - nodeId: 19
-      weight: 0.35305664
-    layer: 2
-  - id: 30
-    value: 0
-    bias: 0.6056571
-    connectedNodes:
-    - nodeId: 20
-      weight: 0.60701895
-    - nodeId: 21
-      weight: -0.8444612
-    - nodeId: 22
-      weight: 0.4551997
-    - nodeId: 23
-      weight: -0.1852876
-    - nodeId: 24
-      weight: 0.56121707
-    - nodeId: 25
-      weight: -0.9384413
-    - nodeId: 26
-      weight: 0.96874046
-    - nodeId: 27
-      weight: -0.5669069
-    - nodeId: 28
-      weight: -0.6148319
-    - nodeId: 29
-      weight: 0.5620253
-    layer: 3
-  - id: 31
-    value: 0
-    bias: 0.011368632
-    connectedNodes:
-    - nodeId: 20
-      weight: -0.93293977
-    - nodeId: 21
-      weight: 0.59561896
-    - nodeId: 22
-      weight: -0.303496
-    - nodeId: 23
-      weight: 0.6978433
-    - nodeId: 24
-      weight: -0.34995043
-    - nodeId: 25
-      weight: 0.80400753
-    - nodeId: 26
-      weight: -0.12669837
-    - nodeId: 27
-      weight: -0.13482225
-    - nodeId: 28
-      weight: 0.36657926
-    - nodeId: 29
-      weight: -0.88980055
-    layer: 3
-  - id: 32
-    value: 0
-    bias: 0.06332338
-    connectedNodes:
-    - nodeId: 20
-      weight: 0.9388008
-    - nodeId: 21
-      weight: 0.86440516
-    - nodeId: 22
-      weight: 0.8554344
-    - nodeId: 23
-      weight: 0.9748075
-    - nodeId: 24
-      weight: -0.12047088
-    - nodeId: 25
-      weight: 0.90945244
-    - nodeId: 26
-      weight: -0.18101704
-    - nodeId: 27
-      weight: 0.7745428
-    - nodeId: 28
-      weight: -0.5697565
-    - nodeId: 29
-      weight: 0.8244791
-    layer: 3
-  - id: 33
-    value: 0
-    bias: -0.64857125
-    connectedNodes:
-    - nodeId: 20
-      weight: 0.95850277
-    - nodeId: 21
-      weight: 0.867048
-    - nodeId: 22
-      weight: -0.17262256
-    - nodeId: 23
-      weight: 0.17238128
-    - nodeId: 24
-      weight: -0.45779836
-    - nodeId: 25
-      weight: 0.57764983
-    - nodeId: 26
-      weight: -0.5669713
-    - nodeId: 27
-      weight: -0.008628488
-    - nodeId: 28
-      weight: -0.21870887
-    - nodeId: 29
-      weight: 0.20922172
-    layer: 3
-  - id: 34
-    value: 0
-    bias: -0.6475589
-    connectedNodes:
-    - nodeId: 20
-      weight: 0.035487056
-    - nodeId: 21
-      weight: 0.32071897
-    - nodeId: 22
-      weight: -0.9024017
-    - nodeId: 23
-      weight: 0.14825284
-    - nodeId: 24
-      weight: 0.2830777
-    - nodeId: 25
-      weight: 0.345803
-    - nodeId: 26
-      weight: 0.37593982
-    - nodeId: 27
-      weight: 0.35233423
-    - nodeId: 28
-      weight: 0.5347476
-    - nodeId: 29
-      weight: 0.82613516
-    layer: 3
-  - id: 35
-    value: 0
-    bias: -0.5645642
-    connectedNodes:
-    - nodeId: 20
-      weight: -0.24428117
-    - nodeId: 21
-      weight: -0.30986416
-    - nodeId: 22
-      weight: 0.70768356
-    - nodeId: 23
-      weight: 0.9628234
-    - nodeId: 24
-      weight: -0.523376
-    - nodeId: 25
-      weight: -0.9658675
-    - nodeId: 26
-      weight: -0.6542473
-    - nodeId: 27
-      weight: 0.19704974
-    - nodeId: 28
-      weight: -0.31145585
-    - nodeId: 29
-      weight: -0.29578102
-    layer: 3
-  - id: 36
-    value: 0
-    bias: 0.1754719
-    connectedNodes:
-    - nodeId: 20
-      weight: -0.63793325
-    - nodeId: 21
-      weight: -0.20641387
-    - nodeId: 22
-      weight: 0.55483294
-    - nodeId: 23
-      weight: 0.175861
-    - nodeId: 24
-      weight: -0.5726495
-    - nodeId: 25
-      weight: 0.7508807
-    - nodeId: 26
-      weight: 0.7647934
-    - nodeId: 27
-      weight: -0.20245516
-    - nodeId: 28
-      weight: 0.003732562
-    - nodeId: 29
-      weight: -0.15991127
-    layer: 3
-  - id: 37
-    value: 0
-    bias: 0.3553867
-    connectedNodes:
-    - nodeId: 20
-      weight: -0.28062403
-    - nodeId: 21
-      weight: -0.37944376
-    - nodeId: 22
-      weight: 0.18625963
-    - nodeId: 23
-      weight: -0.8239207
-    - nodeId: 24
-      weight: 0.2136668
-    - nodeId: 25
-      weight: -0.9357321
-    - nodeId: 26
-      weight: 0.47768757
-    - nodeId: 27
-      weight: 0.38140604
-    - nodeId: 28
-      weight: 0.36445138
-    - nodeId: 29
-      weight: -0.8501041
-    layer: 3
-  - id: 38
-    value: 0
-    bias: 0.5271225
-    connectedNodes:
-    - nodeId: 20
-      weight: 0.108148694
-    - nodeId: 21
-      weight: 0.7290859
-    - nodeId: 22
-      weight: 0.8307705
-    - nodeId: 23
-      weight: -0.0008150339
-    - nodeId: 24
-      weight: 0.7152803
-    - nodeId: 25
-      weight: -0.39960992
-    - nodeId: 26
-      weight: -0.6277282
-    - nodeId: 27
-      weight: -0.051534772
-    - nodeId: 28
-      weight: -0.20307386
-    - nodeId: 29
-      weight: -0.58740973
-    layer: 3
-  - id: 39
-    value: 0
-    bias: 0.7163019
-    connectedNodes:
-    - nodeId: 20
-      weight: 0.70144033
-    - nodeId: 21
-      weight: 0.4910073
-    - nodeId: 22
-      weight: 0.48018548
-    - nodeId: 23
-      weight: 0.7460699
-    - nodeId: 24
-      weight: 0.65879273
-    - nodeId: 25
-      weight: -0.98852944
-    - nodeId: 26
-      weight: 0.97327065
-    - nodeId: 27
-      weight: 0.940881
-    - nodeId: 28
-      weight: -0.30553877
-    - nodeId: 29
-      weight: -0.99246526
-    layer: 3
-  - id: 40
-    value: 0
-    bias: 0.2580907
-    connectedNodes:
-    - nodeId: 30
-      weight: 0.6757853
-    - nodeId: 31
-      weight: 0.4764094
-    - nodeId: 32
-      weight: -0.50978446
-    - nodeId: 33
-      weight: -0.8628657
-    - nodeId: 34
-      weight: -0.4545647
-    - nodeId: 35
-      weight: 0.8480079
-    - nodeId: 36
-      weight: 0.59972334
-    - nodeId: 37
-      weight: 0.8348751
-    - nodeId: 38
-      weight: -0.34828007
-    - nodeId: 39
-      weight: -0.87173796
-    layer: 4
-  - id: 41
-    value: 0
-    bias: 0.6605303
-    connectedNodes:
-    - nodeId: 30
-      weight: 0.3136091
-    - nodeId: 31
-      weight: -0.13984382
-    - nodeId: 32
-      weight: -0.9217391
-    - nodeId: 33
-      weight: 0.34504983
-    - nodeId: 34
-      weight: 0.35163304
-    - nodeId: 35
-      weight: -0.019582152
-    - nodeId: 36
-      weight: -0.70329237
-    - nodeId: 37
-      weight: 0.099594474
-    - nodeId: 38
-      weight: 0.76170754
-    - nodeId: 39
-      weight: -0.39668357
-    layer: 4
-  - id: 42
-    value: 0
-    bias: -0.664032
-    connectedNodes:
-    - nodeId: 30
-      weight: 0.6796808
-    - nodeId: 31
-      weight: 0.9652231
-    - nodeId: 32
-      weight: -0.89142656
-    - nodeId: 33
-      weight: 0.95311975
-    - nodeId: 34
-      weight: -0.21013129
-    - nodeId: 35
-      weight: -0.84878826
-    - nodeId: 36
-      weight: -0.7551694
-    - nodeId: 37
-      weight: -0.4838127
-    - nodeId: 38
-      weight: 0.9748931
-    - nodeId: 39
-      weight: -0.15571487
-    layer: 4
-  - id: 43
-    value: 0
-    bias: 0.74218774
-    connectedNodes:
-    - nodeId: 30
-      weight: 0.3021445
-    - nodeId: 31
-      weight: -0.44062006
-    - nodeId: 32
-      weight: -0.73265505
-    - nodeId: 33
-      weight: 0.9445715
-    - nodeId: 34
-      weight: -0.28147686
-    - nodeId: 35
-      weight: 0.8502426
-    - nodeId: 36
-      weight: 0.2101947
-    - nodeId: 37
-      weight: -0.7857642
-    - nodeId: 38
-      weight: 0.4431784
-    - nodeId: 39
-      weight: -0.40716708
-    layer: 4
-  maxLayer: 4
-  powerValue: 0
+  _brain:
+    _nodeList:
+    - _id: 0
+      _value: 0
+      _bias: -0.22139943
+      _connectedNodes: []
+      _layer: 0
+    - _id: 1
+      _value: 0
+      _bias: 0.91258645
+      _connectedNodes: []
+      _layer: 0
+    - _id: 2
+      _value: 0
+      _bias: -0.16638291
+      _connectedNodes: []
+      _layer: 0
+    - _id: 3
+      _value: 0
+      _bias: -0.5627365
+      _connectedNodes: []
+      _layer: 0
+    - _id: 4
+      _value: 0
+      _bias: 0.51716995
+      _connectedNodes: []
+      _layer: 0
+    - _id: 5
+      _value: 0
+      _bias: 0.18328941
+      _connectedNodes: []
+      _layer: 0
+    - _id: 6
+      _value: 0
+      _bias: 0.82499886
+      _connectedNodes: []
+      _layer: 0
+    - _id: 7
+      _value: 0
+      _bias: 0.8328903
+      _connectedNodes: []
+      _layer: 0
+    - _id: 8
+      _value: 0
+      _bias: -0.54496646
+      _connectedNodes: []
+      _layer: 0
+    - _id: 9
+      _value: 0
+      _bias: 0.8543019
+      _connectedNodes: []
+      _layer: 0
+    - _id: 10
+      _value: 0
+      _bias: -0.46345246
+      _connectedNodes:
+      - _nodeId: 0
+        _weight: -0.6546736
+      - _nodeId: 1
+        _weight: 0.028035045
+      - _nodeId: 2
+        _weight: 0.093443274
+      - _nodeId: 3
+        _weight: -0.4068328
+      - _nodeId: 4
+        _weight: -0.5927818
+      - _nodeId: 5
+        _weight: 0.6301255
+      - _nodeId: 6
+        _weight: -0.37535655
+      - _nodeId: 7
+        _weight: -0.62496424
+      - _nodeId: 8
+        _weight: 0.21119511
+      - _nodeId: 9
+        _weight: 0.75744367
+      _layer: 1
+    - _id: 11
+      _value: 0
+      _bias: 0.6912613
+      _connectedNodes:
+      - _nodeId: 0
+        _weight: 0.18774498
+      - _nodeId: 1
+        _weight: -0.9805715
+      - _nodeId: 2
+        _weight: -0.08114731
+      - _nodeId: 3
+        _weight: -0.15444148
+      - _nodeId: 4
+        _weight: 0.67936707
+      - _nodeId: 5
+        _weight: 0.51846004
+      - _nodeId: 6
+        _weight: -0.83697414
+      - _nodeId: 7
+        _weight: -0.59887934
+      - _nodeId: 8
+        _weight: -0.16378415
+      - _nodeId: 9
+        _weight: -0.51993895
+      _layer: 1
+    - _id: 12
+      _value: 0
+      _bias: -0.2879492
+      _connectedNodes:
+      - _nodeId: 0
+        _weight: 0.9493263
+      - _nodeId: 1
+        _weight: -0.8486116
+      - _nodeId: 2
+        _weight: 0.39534113
+      - _nodeId: 3
+        _weight: -0.10766995
+      - _nodeId: 4
+        _weight: -0.8327913
+      - _nodeId: 5
+        _weight: -0.76050305
+      - _nodeId: 6
+        _weight: -0.23344314
+      - _nodeId: 7
+        _weight: -0.93591475
+      - _nodeId: 8
+        _weight: -0.5426061
+      - _nodeId: 9
+        _weight: -0.44099677
+      _layer: 1
+    - _id: 13
+      _value: 0
+      _bias: -0.10646117
+      _connectedNodes:
+      - _nodeId: 0
+        _weight: 0.3849387
+      - _nodeId: 1
+        _weight: -0.9169986
+      - _nodeId: 2
+        _weight: -0.402784
+      - _nodeId: 3
+        _weight: 0.27557012
+      - _nodeId: 4
+        _weight: -0.8295245
+      - _nodeId: 5
+        _weight: 0.5845392
+      - _nodeId: 6
+        _weight: -0.016203761
+      - _nodeId: 7
+        _weight: 0.18908846
+      - _nodeId: 8
+        _weight: 0.83103275
+      - _nodeId: 9
+        _weight: 0.16960275
+      _layer: 1
+    - _id: 14
+      _value: 0
+      _bias: -0.17056811
+      _connectedNodes:
+      - _nodeId: 0
+        _weight: 0.9959767
+      - _nodeId: 1
+        _weight: -0.69494057
+      - _nodeId: 2
+        _weight: -0.9001937
+      - _nodeId: 3
+        _weight: -0.59117293
+      - _nodeId: 4
+        _weight: -0.6854651
+      - _nodeId: 5
+        _weight: -0.18955696
+      - _nodeId: 6
+        _weight: -0.7670851
+      - _nodeId: 7
+        _weight: -0.885782
+      - _nodeId: 8
+        _weight: -0.330181
+      - _nodeId: 9
+        _weight: 0.5488932
+      _layer: 1
+    - _id: 15
+      _value: 0
+      _bias: 0.7299137
+      _connectedNodes:
+      - _nodeId: 0
+        _weight: 0.48864457
+      - _nodeId: 1
+        _weight: -0.68336844
+      - _nodeId: 2
+        _weight: -0.3186518
+      - _nodeId: 3
+        _weight: -0.8463788
+      - _nodeId: 4
+        _weight: 0.023320794
+      - _nodeId: 5
+        _weight: -0.074420094
+      - _nodeId: 6
+        _weight: -0.7439563
+      - _nodeId: 7
+        _weight: -0.76581717
+      - _nodeId: 8
+        _weight: 0.7812817
+      - _nodeId: 9
+        _weight: 0.013712525
+      _layer: 1
+    - _id: 16
+      _value: 0
+      _bias: -0.38840973
+      _connectedNodes:
+      - _nodeId: 0
+        _weight: 0.5778196
+      - _nodeId: 1
+        _weight: -0.7009618
+      - _nodeId: 2
+        _weight: -0.3002056
+      - _nodeId: 3
+        _weight: -0.9580052
+      - _nodeId: 4
+        _weight: -0.26484478
+      - _nodeId: 5
+        _weight: -0.8949051
+      - _nodeId: 6
+        _weight: 0.09215939
+      - _nodeId: 7
+        _weight: -0.07657707
+      - _nodeId: 8
+        _weight: 0.9622214
+      - _nodeId: 9
+        _weight: 0.3738694
+      _layer: 1
+    - _id: 17
+      _value: 0
+      _bias: 0.5150533
+      _connectedNodes:
+      - _nodeId: 0
+        _weight: 0.11535251
+      - _nodeId: 1
+        _weight: 0.99146223
+      - _nodeId: 2
+        _weight: -0.52405715
+      - _nodeId: 3
+        _weight: 0.80259013
+      - _nodeId: 4
+        _weight: 0.6411395
+      - _nodeId: 5
+        _weight: 0.15268481
+      - _nodeId: 6
+        _weight: 0.3101494
+      - _nodeId: 7
+        _weight: -0.14658773
+      - _nodeId: 8
+        _weight: 0.6142547
+      - _nodeId: 9
+        _weight: -0.99439764
+      _layer: 1
+    - _id: 18
+      _value: 0
+      _bias: 0.5076964
+      _connectedNodes:
+      - _nodeId: 0
+        _weight: -0.78422856
+      - _nodeId: 1
+        _weight: 0.14884388
+      - _nodeId: 2
+        _weight: 0.77773094
+      - _nodeId: 3
+        _weight: 0.9824889
+      - _nodeId: 4
+        _weight: 0.27004358
+      - _nodeId: 5
+        _weight: -0.86892915
+      - _nodeId: 6
+        _weight: 0.160864
+      - _nodeId: 7
+        _weight: 0.43025586
+      - _nodeId: 8
+        _weight: -0.8685076
+      - _nodeId: 9
+        _weight: -0.14625418
+      _layer: 1
+    - _id: 19
+      _value: 0
+      _bias: -0.54331803
+      _connectedNodes:
+      - _nodeId: 0
+        _weight: 0.3804812
+      - _nodeId: 1
+        _weight: -0.8744669
+      - _nodeId: 2
+        _weight: 0.7677624
+      - _nodeId: 3
+        _weight: -0.7746258
+      - _nodeId: 4
+        _weight: 0.36423942
+      - _nodeId: 5
+        _weight: 0.4604406
+      - _nodeId: 6
+        _weight: 0.6733401
+      - _nodeId: 7
+        _weight: -0.6825795
+      - _nodeId: 8
+        _weight: -0.29336774
+      - _nodeId: 9
+        _weight: 0.18724835
+      _layer: 1
+    - _id: 20
+      _value: 0
+      _bias: -0.84724665
+      _connectedNodes:
+      - _nodeId: 10
+        _weight: -0.5015874
+      - _nodeId: 11
+        _weight: -0.3822199
+      - _nodeId: 12
+        _weight: 0.48430583
+      - _nodeId: 13
+        _weight: 0.862412
+      - _nodeId: 14
+        _weight: 0.5871134
+      - _nodeId: 15
+        _weight: -0.24438941
+      - _nodeId: 16
+        _weight: -0.97839975
+      - _nodeId: 17
+        _weight: -0.08355868
+      - _nodeId: 18
+        _weight: -0.24429286
+      - _nodeId: 19
+        _weight: -0.068826795
+      _layer: 2
+    - _id: 21
+      _value: 0
+      _bias: 0.028957486
+      _connectedNodes:
+      - _nodeId: 10
+        _weight: -0.43390453
+      - _nodeId: 11
+        _weight: -0.20720303
+      - _nodeId: 12
+        _weight: -0.06329119
+      - _nodeId: 13
+        _weight: 0.9874506
+      - _nodeId: 14
+        _weight: -0.54440475
+      - _nodeId: 15
+        _weight: -0.34819615
+      - _nodeId: 16
+        _weight: 0.49535176
+      - _nodeId: 17
+        _weight: -0.65018415
+      - _nodeId: 18
+        _weight: 0.69334006
+      - _nodeId: 19
+        _weight: -0.6988039
+      _layer: 2
+    - _id: 22
+      _value: 0
+      _bias: 0.37543628
+      _connectedNodes:
+      - _nodeId: 10
+        _weight: -0.17362392
+      - _nodeId: 11
+        _weight: -0.22976482
+      - _nodeId: 12
+        _weight: -0.62813115
+      - _nodeId: 13
+        _weight: -0.4136895
+      - _nodeId: 14
+        _weight: 0.47007486
+      - _nodeId: 15
+        _weight: 0.49946877
+      - _nodeId: 16
+        _weight: 0.8569491
+      - _nodeId: 17
+        _weight: 0.89317036
+      - _nodeId: 18
+        _weight: -0.59482336
+      - _nodeId: 19
+        _weight: -0.8022933
+      _layer: 2
+    - _id: 23
+      _value: 0
+      _bias: 0.41833612
+      _connectedNodes:
+      - _nodeId: 10
+        _weight: 0.65252566
+      - _nodeId: 11
+        _weight: -0.7251501
+      - _nodeId: 12
+        _weight: 0.70057607
+      - _nodeId: 13
+        _weight: -0.50387096
+      - _nodeId: 14
+        _weight: 0.6204245
+      - _nodeId: 15
+        _weight: -0.6072273
+      - _nodeId: 16
+        _weight: -0.23758733
+      - _nodeId: 17
+        _weight: 0.47249505
+      - _nodeId: 18
+        _weight: -0.48309457
+      - _nodeId: 19
+        _weight: -0.1922468
+      _layer: 2
+    - _id: 24
+      _value: 0
+      _bias: 0.75612235
+      _connectedNodes:
+      - _nodeId: 10
+        _weight: 0.7455964
+      - _nodeId: 11
+        _weight: -0.8220985
+      - _nodeId: 12
+        _weight: 0.19005668
+      - _nodeId: 13
+        _weight: 0.19385326
+      - _nodeId: 14
+        _weight: -0.5891497
+      - _nodeId: 15
+        _weight: 0.12221825
+      - _nodeId: 16
+        _weight: 0.38999984
+      - _nodeId: 17
+        _weight: -0.62207556
+      - _nodeId: 18
+        _weight: -0.45682085
+      - _nodeId: 19
+        _weight: -0.4498521
+      _layer: 2
+    - _id: 25
+      _value: 0
+      _bias: 0.58033395
+      _connectedNodes:
+      - _nodeId: 10
+        _weight: 0.88477683
+      - _nodeId: 11
+        _weight: -0.651747
+      - _nodeId: 12
+        _weight: -0.6795273
+      - _nodeId: 13
+        _weight: 0.45963332
+      - _nodeId: 14
+        _weight: -0.0032721758
+      - _nodeId: 15
+        _weight: 0.4439406
+      - _nodeId: 16
+        _weight: 0.959445
+      - _nodeId: 17
+        _weight: -0.63254166
+      - _nodeId: 18
+        _weight: -0.6289282
+      - _nodeId: 19
+        _weight: 0.21719873
+      _layer: 2
+    - _id: 26
+      _value: 0
+      _bias: 0.720314
+      _connectedNodes:
+      - _nodeId: 10
+        _weight: -0.7946775
+      - _nodeId: 11
+        _weight: 0.46620104
+      - _nodeId: 12
+        _weight: -0.9002888
+      - _nodeId: 13
+        _weight: 0.9252212
+      - _nodeId: 14
+        _weight: 0.11279857
+      - _nodeId: 15
+        _weight: -0.8750148
+      - _nodeId: 16
+        _weight: 0.49738118
+      - _nodeId: 17
+        _weight: 0.8230171
+      - _nodeId: 18
+        _weight: 0.56574297
+      - _nodeId: 19
+        _weight: -0.49614918
+      _layer: 2
+    - _id: 27
+      _value: 0
+      _bias: 0.88664603
+      _connectedNodes:
+      - _nodeId: 10
+        _weight: 0.95227766
+      - _nodeId: 11
+        _weight: -0.24035418
+      - _nodeId: 12
+        _weight: 0.8260329
+      - _nodeId: 13
+        _weight: -0.7889402
+      - _nodeId: 14
+        _weight: -0.40007007
+      - _nodeId: 15
+        _weight: 0.054335713
+      - _nodeId: 16
+        _weight: 0.021703362
+      - _nodeId: 17
+        _weight: 0.9215324
+      - _nodeId: 18
+        _weight: 0.1343993
+      - _nodeId: 19
+        _weight: 0.6491833
+      _layer: 2
+    - _id: 28
+      _value: 0
+      _bias: -0.8031368
+      _connectedNodes:
+      - _nodeId: 10
+        _weight: 0.6146829
+      - _nodeId: 11
+        _weight: -0.7546265
+      - _nodeId: 12
+        _weight: 0.296972
+      - _nodeId: 13
+        _weight: 0.2595279
+      - _nodeId: 14
+        _weight: 0.37803075
+      - _nodeId: 15
+        _weight: -0.89532375
+      - _nodeId: 16
+        _weight: -0.61306286
+      - _nodeId: 17
+        _weight: -0.23185575
+      - _nodeId: 18
+        _weight: 0.5068536
+      - _nodeId: 19
+        _weight: 0.98394537
+      _layer: 2
+    - _id: 29
+      _value: 0
+      _bias: 0.13440955
+      _connectedNodes:
+      - _nodeId: 10
+        _weight: 0.3737211
+      - _nodeId: 11
+        _weight: 0.487215
+      - _nodeId: 12
+        _weight: 0.88706183
+      - _nodeId: 13
+        _weight: 0.9701593
+      - _nodeId: 14
+        _weight: 0.76813674
+      - _nodeId: 15
+        _weight: 0.85194373
+      - _nodeId: 16
+        _weight: -0.25094306
+      - _nodeId: 17
+        _weight: 0.21139896
+      - _nodeId: 18
+        _weight: -0.36397588
+      - _nodeId: 19
+        _weight: -0.45237625
+      _layer: 2
+    - _id: 30
+      _value: 0
+      _bias: -0.95853925
+      _connectedNodes:
+      - _nodeId: 20
+        _weight: 0.22219384
+      - _nodeId: 21
+        _weight: -0.82188225
+      - _nodeId: 22
+        _weight: -0.7106385
+      - _nodeId: 23
+        _weight: 0.8403034
+      - _nodeId: 24
+        _weight: 0.9783695
+      - _nodeId: 25
+        _weight: -0.46013725
+      - _nodeId: 26
+        _weight: 0.58783674
+      - _nodeId: 27
+        _weight: -0.07492483
+      - _nodeId: 28
+        _weight: 0.54616404
+      - _nodeId: 29
+        _weight: 0.59800434
+      _layer: 3
+    - _id: 31
+      _value: 0
+      _bias: 0.99515224
+      _connectedNodes:
+      - _nodeId: 20
+        _weight: -0.97733307
+      - _nodeId: 21
+        _weight: -0.46801317
+      - _nodeId: 22
+        _weight: 0.52472305
+      - _nodeId: 23
+        _weight: 0.40239117
+      - _nodeId: 24
+        _weight: -0.73829055
+      - _nodeId: 25
+        _weight: 0.9050987
+      - _nodeId: 26
+        _weight: -0.7606907
+      - _nodeId: 27
+        _weight: 0.7334616
+      - _nodeId: 28
+        _weight: -0.3915032
+      - _nodeId: 29
+        _weight: 0.77354074
+      _layer: 3
+    - _id: 32
+      _value: 0
+      _bias: -0.16223872
+      _connectedNodes:
+      - _nodeId: 20
+        _weight: -0.2915703
+      - _nodeId: 21
+        _weight: -0.5079293
+      - _nodeId: 22
+        _weight: -0.8816025
+      - _nodeId: 23
+        _weight: 0.31642172
+      - _nodeId: 24
+        _weight: 0.9888561
+      - _nodeId: 25
+        _weight: -0.36112726
+      - _nodeId: 26
+        _weight: -0.33707035
+      - _nodeId: 27
+        _weight: 0.76397014
+      - _nodeId: 28
+        _weight: -0.47902858
+      - _nodeId: 29
+        _weight: 0.8088882
+      _layer: 3
+    - _id: 33
+      _value: 0
+      _bias: 0.4681985
+      _connectedNodes:
+      - _nodeId: 20
+        _weight: -0.04256141
+      - _nodeId: 21
+        _weight: 0.99664783
+      - _nodeId: 22
+        _weight: -0.98005366
+      - _nodeId: 23
+        _weight: 0.48347732
+      - _nodeId: 24
+        _weight: 0.27065203
+      - _nodeId: 25
+        _weight: -0.33243096
+      - _nodeId: 26
+        _weight: -0.77902937
+      - _nodeId: 27
+        _weight: -0.97124887
+      - _nodeId: 28
+        _weight: 0.5573137
+      - _nodeId: 29
+        _weight: -0.23617184
+      _layer: 3
+    - _id: 34
+      _value: 0
+      _bias: -0.611063
+      _connectedNodes:
+      - _nodeId: 20
+        _weight: -0.98450947
+      - _nodeId: 21
+        _weight: -0.36289823
+      - _nodeId: 22
+        _weight: -0.13372004
+      - _nodeId: 23
+        _weight: 0.81160665
+      - _nodeId: 24
+        _weight: -0.9675398
+      - _nodeId: 25
+        _weight: 0.33479783
+      - _nodeId: 26
+        _weight: 0.50986266
+      - _nodeId: 27
+        _weight: 0.13788617
+      - _nodeId: 28
+        _weight: -0.664274
+      - _nodeId: 29
+        _weight: -0.54304266
+      _layer: 3
+    - _id: 35
+      _value: 0
+      _bias: 0.55940866
+      _connectedNodes:
+      - _nodeId: 20
+        _weight: -0.20679438
+      - _nodeId: 21
+        _weight: 0.73596907
+      - _nodeId: 22
+        _weight: 0.45351502
+      - _nodeId: 23
+        _weight: 0.6265116
+      - _nodeId: 24
+        _weight: 0.7809763
+      - _nodeId: 25
+        _weight: -0.122706056
+      - _nodeId: 26
+        _weight: 0.65288377
+      - _nodeId: 27
+        _weight: 0.69413805
+      - _nodeId: 28
+        _weight: -0.7228329
+      - _nodeId: 29
+        _weight: 0.7129915
+      _layer: 3
+    - _id: 36
+      _value: 0
+      _bias: -0.5918665
+      _connectedNodes:
+      - _nodeId: 20
+        _weight: 0.23363435
+      - _nodeId: 21
+        _weight: 0.36571452
+      - _nodeId: 22
+        _weight: 0.49331853
+      - _nodeId: 23
+        _weight: -0.022840142
+      - _nodeId: 24
+        _weight: -0.58136773
+      - _nodeId: 25
+        _weight: -0.32453692
+      - _nodeId: 26
+        _weight: -0.63631296
+      - _nodeId: 27
+        _weight: -0.66576505
+      - _nodeId: 28
+        _weight: 0.953557
+      - _nodeId: 29
+        _weight: 0.80479836
+      _layer: 3
+    - _id: 37
+      _value: 0
+      _bias: -0.15124285
+      _connectedNodes:
+      - _nodeId: 20
+        _weight: -0.8788874
+      - _nodeId: 21
+        _weight: -0.47548187
+      - _nodeId: 22
+        _weight: -0.110693336
+      - _nodeId: 23
+        _weight: -0.1973902
+      - _nodeId: 24
+        _weight: -0.6954262
+      - _nodeId: 25
+        _weight: 0.18610466
+      - _nodeId: 26
+        _weight: 0.9265485
+      - _nodeId: 27
+        _weight: -0.80499434
+      - _nodeId: 28
+        _weight: 0.53056216
+      - _nodeId: 29
+        _weight: 0.43826768
+      _layer: 3
+    - _id: 38
+      _value: 0
+      _bias: -0.4553312
+      _connectedNodes:
+      - _nodeId: 20
+        _weight: -0.83381987
+      - _nodeId: 21
+        _weight: 0.48122665
+      - _nodeId: 22
+        _weight: -0.39085734
+      - _nodeId: 23
+        _weight: -0.79494405
+      - _nodeId: 24
+        _weight: 0.8308463
+      - _nodeId: 25
+        _weight: -0.56157446
+      - _nodeId: 26
+        _weight: -0.77119946
+      - _nodeId: 27
+        _weight: -0.44131625
+      - _nodeId: 28
+        _weight: 0.14536941
+      - _nodeId: 29
+        _weight: 0.16219723
+      _layer: 3
+    - _id: 39
+      _value: 0
+      _bias: 0.11305463
+      _connectedNodes:
+      - _nodeId: 20
+        _weight: 0.99337935
+      - _nodeId: 21
+        _weight: 0.57312036
+      - _nodeId: 22
+        _weight: 0.5784786
+      - _nodeId: 23
+        _weight: 0.19187844
+      - _nodeId: 24
+        _weight: 0.84407234
+      - _nodeId: 25
+        _weight: 0.4564211
+      - _nodeId: 26
+        _weight: 0.5658312
+      - _nodeId: 27
+        _weight: -0.47749245
+      - _nodeId: 28
+        _weight: 0.032683015
+      - _nodeId: 29
+        _weight: 0.85628605
+      _layer: 3
+    - _id: 40
+      _value: 0
+      _bias: 0.0884608
+      _connectedNodes:
+      - _nodeId: 30
+        _weight: -0.5087578
+      - _nodeId: 31
+        _weight: -0.011235595
+      - _nodeId: 32
+        _weight: -0.9278765
+      - _nodeId: 33
+        _weight: 0.32847926
+      - _nodeId: 34
+        _weight: -0.07056534
+      - _nodeId: 35
+        _weight: -0.64163446
+      - _nodeId: 36
+        _weight: -0.32923448
+      - _nodeId: 37
+        _weight: 0.35102102
+      - _nodeId: 38
+        _weight: -0.20715582
+      - _nodeId: 39
+        _weight: -0.5154197
+      _layer: 4
+    - _id: 41
+      _value: 0
+      _bias: -0.27060163
+      _connectedNodes:
+      - _nodeId: 30
+        _weight: 0.36303803
+      - _nodeId: 31
+        _weight: -0.06273687
+      - _nodeId: 32
+        _weight: -0.4670161
+      - _nodeId: 33
+        _weight: -0.5740769
+      - _nodeId: 34
+        _weight: -0.7138252
+      - _nodeId: 35
+        _weight: -0.49208653
+      - _nodeId: 36
+        _weight: 0.43112966
+      - _nodeId: 37
+        _weight: 0.098164916
+      - _nodeId: 38
+        _weight: -0.20301569
+      - _nodeId: 39
+        _weight: -0.9516933
+      _layer: 4
+    - _id: 42
+      _value: 0
+      _bias: -0.57865787
+      _connectedNodes:
+      - _nodeId: 30
+        _weight: -0.5695143
+      - _nodeId: 31
+        _weight: 0.68651104
+      - _nodeId: 32
+        _weight: -0.93848157
+      - _nodeId: 33
+        _weight: 0.056489587
+      - _nodeId: 34
+        _weight: 0.48158285
+      - _nodeId: 35
+        _weight: 0.67846704
+      - _nodeId: 36
+        _weight: -0.3877281
+      - _nodeId: 37
+        _weight: 0.43283054
+      - _nodeId: 38
+        _weight: 0.00351727
+      - _nodeId: 39
+        _weight: -0.72946477
+      _layer: 4
+    - _id: 43
+      _value: 0
+      _bias: 0.08633411
+      _connectedNodes:
+      - _nodeId: 30
+        _weight: -0.09267104
+      - _nodeId: 31
+        _weight: -0.95079327
+      - _nodeId: 32
+        _weight: 0.81891465
+      - _nodeId: 33
+        _weight: 0.1469804
+      - _nodeId: 34
+        _weight: 0.8539226
+      - _nodeId: 35
+        _weight: -0.2253834
+      - _nodeId: 36
+        _weight: -0.382259
+      - _nodeId: 37
+        _weight: -0.4001478
+      - _nodeId: 38
+        _weight: -0.581229
+      - _nodeId: 39
+        _weight: -0.9545262
+      _layer: 4
+    _maxLayer: 4
+    _powerValue: 0
