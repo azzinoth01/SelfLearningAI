@@ -10,66 +10,66 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4434c58a07121dc44864626c363232ca, type: 3}
-  m_Name: brainGen20
+  m_Name: brainGen25
   m_EditorClassIdentifier: 
   _brain:
     _nodeList:
     - _id: 0
-      _value: 11.797972
+      _value: 28.136026
       _bias: -0.18844211
       _connectedNodes: []
       _layer: 0
     - _id: 1
-      _value: 6.598779
+      _value: 11.029307
       _bias: 0.88435507
       _connectedNodes: []
       _layer: 0
     - _id: 2
-      _value: 27.349007
+      _value: 1.161171
       _bias: -0.26783025
       _connectedNodes: []
       _layer: 0
     - _id: 3
-      _value: 8.261553
+      _value: 11.013131
       _bias: 0.45078942
       _connectedNodes: []
       _layer: 0
     - _id: 4
-      _value: 4.5391784
+      _value: 0.73189306
       _bias: -0.40435612
       _connectedNodes: []
       _layer: 0
     - _id: 5
-      _value: 19.781885
+      _value: 56.044823
       _bias: 0.19653714
       _connectedNodes: []
       _layer: 0
     - _id: 6
-      _value: 17.812515
+      _value: 14.463497
       _bias: 0.8649969
       _connectedNodes: []
       _layer: 0
     - _id: 7
-      _value: 3.5447016
+      _value: 1.8259859
       _bias: 0.16053593
       _connectedNodes: []
       _layer: 0
     - _id: 8
-      _value: 9.582177
+      _value: 24.72811
       _bias: -0.44238126
       _connectedNodes: []
       _layer: 0
     - _id: 9
-      _value: 14.013765
+      _value: 31.41961
       _bias: 0.82531404
       _connectedNodes: []
       _layer: 0
     - _id: 10
-      _value: 16.880146
+      _value: 79.88631
       _bias: 0.20879924
       _connectedNodes:
       - _nodeId: 0
-        _weight: 0.78279704
+        _weight: 1.2888417
       - _nodeId: 1
         _weight: 0.71286345
       - _nodeId: 2
@@ -87,10 +87,10 @@ MonoBehaviour:
       - _nodeId: 8
         _weight: -0.71241236
       - _nodeId: 9
-        _weight: 1.3108735
+        _weight: 0.6999302
       _layer: 1
     - _id: 11
-      _value: 33.37899
+      _value: 55.425323
       _bias: -1.360793
       _connectedNodes:
       - _nodeId: 0
@@ -115,7 +115,7 @@ MonoBehaviour:
         _weight: -0.37125576
       _layer: 1
     - _id: 12
-      _value: 0
+      _value: 33.31896
       _bias: 0.7317853
       _connectedNodes:
       - _nodeId: 0
@@ -141,7 +141,7 @@ MonoBehaviour:
       _layer: 1
     - _id: 13
       _value: 0
-      _bias: 1.317698
+      _bias: 0.6460488
       _connectedNodes:
       - _nodeId: 0
         _weight: -0.959888
@@ -190,13 +190,13 @@ MonoBehaviour:
         _weight: 0.58120465
       _layer: 1
     - _id: 15
-      _value: 10.264882
+      _value: 30.731634
       _bias: 0.10499489
       _connectedNodes:
       - _nodeId: 0
         _weight: 0.96595955
       - _nodeId: 1
-        _weight: 0.11300051
+        _weight: -0.81211627
       - _nodeId: 2
         _weight: -0.19083035
       - _nodeId: 3
@@ -240,7 +240,7 @@ MonoBehaviour:
         _weight: -0.83914685
       _layer: 1
     - _id: 17
-      _value: 19.65804
+      _value: 0
       _bias: 0.17755878
       _connectedNodes:
       - _nodeId: 0
@@ -265,7 +265,7 @@ MonoBehaviour:
         _weight: -0.9814367
       _layer: 1
     - _id: 18
-      _value: 19.354042
+      _value: 50.782555
       _bias: 0.2711036
       _connectedNodes:
       - _nodeId: 0
@@ -290,7 +290,7 @@ MonoBehaviour:
         _weight: 0.8549957
       _layer: 1
     - _id: 19
-      _value: 41.52192
+      _value: 3.9526784
       _bias: 0.40972444
       _connectedNodes:
       - _nodeId: 0
@@ -340,8 +340,8 @@ MonoBehaviour:
         _weight: -0.24238312
       _layer: 2
     - _id: 21
-      _value: 41.772022
-      _bias: 0.34258053
+      _value: 36.055267
+      _bias: -0.45561388
       _connectedNodes:
       - _nodeId: 10
         _weight: -0.008827567
@@ -365,7 +365,7 @@ MonoBehaviour:
         _weight: 0.09010804
       _layer: 2
     - _id: 22
-      _value: 31.419495
+      _value: 0
       _bias: 0.39313528
       _connectedNodes:
       - _nodeId: 10
@@ -385,13 +385,13 @@ MonoBehaviour:
       - _nodeId: 17
         _weight: 0.092041135
       - _nodeId: 18
-        _weight: 0.87588835
+        _weight: 0.2934203
       - _nodeId: 19
         _weight: 0.85682344
       _layer: 2
     - _id: 23
       _value: 0
-      _bias: -0.6110065
+      _bias: -0.056578398
       _connectedNodes:
       - _nodeId: 10
         _weight: 0.29519412
@@ -415,7 +415,7 @@ MonoBehaviour:
         _weight: 0.029732823
       _layer: 2
     - _id: 24
-      _value: 26.699322
+      _value: 48.93605
       _bias: 0.21736419
       _connectedNodes:
       - _nodeId: 10
@@ -440,7 +440,7 @@ MonoBehaviour:
         _weight: 0.1409198
       _layer: 2
     - _id: 25
-      _value: 45.843292
+      _value: 72.57818
       _bias: 0.49478456
       _connectedNodes:
       - _nodeId: 10
@@ -465,7 +465,7 @@ MonoBehaviour:
         _weight: 0.17190802
       _layer: 2
     - _id: 26
-      _value: 1.1376488
+      _value: 0
       _bias: 0.21322596
       _connectedNodes:
       - _nodeId: 10
@@ -540,7 +540,7 @@ MonoBehaviour:
         _weight: -0.764375
       _layer: 2
     - _id: 29
-      _value: 0.21790409
+      _value: 11.9739895
       _bias: 0.88344216
       _connectedNodes:
       - _nodeId: 10
@@ -565,7 +565,7 @@ MonoBehaviour:
         _weight: 0.3777716
       _layer: 2
     - _id: 30
-      _value: 87.30181
+      _value: 79.67214
       _bias: -0.039440274
       _connectedNodes:
       - _nodeId: 20
@@ -590,7 +590,7 @@ MonoBehaviour:
         _weight: -0.57919264
       _layer: 3
     - _id: 31
-      _value: 23.062939
+      _value: 0
       _bias: -0.2506138
       _connectedNodes:
       - _nodeId: 20
@@ -615,7 +615,7 @@ MonoBehaviour:
         _weight: 0.47724363
       _layer: 3
     - _id: 32
-      _value: 42.77217
+      _value: 69.54787
       _bias: 0.52745485
       _connectedNodes:
       - _nodeId: 20
@@ -640,11 +640,11 @@ MonoBehaviour:
         _weight: 0.06122458
       _layer: 3
     - _id: 33
-      _value: 0
+      _value: 34.46678
       _bias: -0.82483387
       _connectedNodes:
       - _nodeId: 20
-        _weight: 0.741783
+        _weight: -0.09740293
       - _nodeId: 21
         _weight: -0.7367797
       - _nodeId: 22
@@ -681,7 +681,7 @@ MonoBehaviour:
       - _nodeId: 25
         _weight: -0.60250664
       - _nodeId: 26
-        _weight: -0.054826856
+        _weight: 0.44708478
       - _nodeId: 27
         _weight: -0.42300832
       - _nodeId: 28
@@ -690,8 +690,8 @@ MonoBehaviour:
         _weight: -0.6853764
       _layer: 3
     - _id: 35
-      _value: 0
-      _bias: -0.41252577
+      _value: 1.4748808
+      _bias: 1.4108609
       _connectedNodes:
       - _nodeId: 20
         _weight: -0.9859998
@@ -715,7 +715,7 @@ MonoBehaviour:
         _weight: -0.54730535
       _layer: 3
     - _id: 36
-      _value: 14.611031
+      _value: 11.559209
       _bias: -0.2862147
       _connectedNodes:
       - _nodeId: 20
@@ -725,7 +725,7 @@ MonoBehaviour:
       - _nodeId: 22
         _weight: -0.58980036
       - _nodeId: 23
-        _weight: 0.12082088
+        _weight: 0.6165936
       - _nodeId: 24
         _weight: -0.6268809
       - _nodeId: 25
@@ -740,7 +740,7 @@ MonoBehaviour:
         _weight: -0.92589426
       _layer: 3
     - _id: 37
-      _value: 5.8762226
+      _value: 80.70493
       _bias: 0.17742646
       _connectedNodes:
       - _nodeId: 20
@@ -815,8 +815,8 @@ MonoBehaviour:
         _weight: 0.49120042
       _layer: 3
     - _id: 40
-      _value: 0
-      _bias: -0.8523414
+      _value: 31.26628
+      _bias: -0.78598154
       _connectedNodes:
       - _nodeId: 30
         _weight: -0.5043974
@@ -865,7 +865,7 @@ MonoBehaviour:
         _weight: -0.8896501
       _layer: 4
     - _id: 42
-      _value: 20.210312
+      _value: 0
       _bias: -0.16647136
       _connectedNodes:
       - _nodeId: 30
@@ -890,8 +890,8 @@ MonoBehaviour:
         _weight: 0.4304535
       _layer: 4
     - _id: 43
-      _value: 19.38372
-      _bias: 0.9151987
+      _value: 0
+      _bias: -0.37129414
       _connectedNodes:
       - _nodeId: 30
         _weight: 0.6051395
@@ -916,7 +916,7 @@ MonoBehaviour:
       _layer: 4
     _maxLayer: 4
     _powerValueList:
-    - 53.800735
-    - 47.79207
-    - 79.446014
-    _averageValue: 60.34627
+    - 681.79016
+    - 1046.687
+    - 865.66943
+    _averageValue: 864.7155

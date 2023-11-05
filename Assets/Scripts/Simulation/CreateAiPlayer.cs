@@ -31,15 +31,6 @@ public class CreateAiPlayer : MonoBehaviour {
         if (character.CanTakeControl() == false) {
             return false;
         }
-        //NeuralNetwork neuralNetwork = new NeuralNetwork(_brainCreator.BrainList[spawnIndex]);
-        //if (character.TakeControl(neuralNetwork) == false) {
-        //    return false;
-        //}
-        //neuralNetwork.ControledCharacter = character;
-        //ResetCharacter(character);
-
-        //NeuralNetworkManager.Instance.AddAgent(neuralNetwork);
-
         ResetCharacter(character, spawnIndex);
 
         return true;

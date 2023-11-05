@@ -16,6 +16,7 @@ public class SettingsObject : ScriptableObject {
     [SerializeField] private int _aIRaycastMaxLength;
     [SerializeField] private int _aIMaxNoMoveFrames;
     [SerializeField] private int _aIMaxOnlyRotationFrames;
+    [SerializeField] private int _aITestCycle;
 
     public static SettingsObject Instance {
         get {
@@ -83,6 +84,12 @@ public class SettingsObject : ScriptableObject {
             return _aIMaxOnlyRotationFrames;
         }
 
+    }
+
+    public int AITestCycle {
+        get {
+            return _aITestCycle;
+        }
     }
 
     private SettingsObject() {

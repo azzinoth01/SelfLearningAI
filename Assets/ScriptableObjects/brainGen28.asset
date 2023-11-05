@@ -10,66 +10,66 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4434c58a07121dc44864626c363232ca, type: 3}
-  m_Name: brainGen20
+  m_Name: brainGen28
   m_EditorClassIdentifier: 
   _brain:
     _nodeList:
     - _id: 0
-      _value: 11.797972
+      _value: 32.48288
       _bias: -0.18844211
       _connectedNodes: []
       _layer: 0
     - _id: 1
-      _value: 6.598779
+      _value: 11.891237
       _bias: 0.88435507
       _connectedNodes: []
       _layer: 0
     - _id: 2
-      _value: 27.349007
+      _value: 1.2438056
       _bias: -0.26783025
       _connectedNodes: []
       _layer: 0
     - _id: 3
-      _value: 8.261553
+      _value: 10.761521
       _bias: 0.45078942
       _connectedNodes: []
       _layer: 0
     - _id: 4
-      _value: 4.5391784
+      _value: 2.108809
       _bias: -0.40435612
       _connectedNodes: []
       _layer: 0
     - _id: 5
-      _value: 19.781885
+      _value: 15.981867
       _bias: 0.19653714
       _connectedNodes: []
       _layer: 0
     - _id: 6
-      _value: 17.812515
+      _value: 10.759199
       _bias: 0.8649969
       _connectedNodes: []
       _layer: 0
     - _id: 7
-      _value: 3.5447016
+      _value: 31.074493
       _bias: 0.16053593
       _connectedNodes: []
       _layer: 0
     - _id: 8
-      _value: 9.582177
+      _value: 2.2403579
       _bias: -0.44238126
       _connectedNodes: []
       _layer: 0
     - _id: 9
-      _value: 14.013765
+      _value: 30.40417
       _bias: 0.82531404
       _connectedNodes: []
       _layer: 0
     - _id: 10
-      _value: 16.880146
+      _value: 98.39719
       _bias: 0.20879924
       _connectedNodes:
       - _nodeId: 0
-        _weight: 0.78279704
+        _weight: 1.2888417
       - _nodeId: 1
         _weight: 0.71286345
       - _nodeId: 2
@@ -87,10 +87,10 @@ MonoBehaviour:
       - _nodeId: 8
         _weight: -0.71241236
       - _nodeId: 9
-        _weight: 1.3108735
+        _weight: 0.6999302
       _layer: 1
     - _id: 11
-      _value: 33.37899
+      _value: 34.31923
       _bias: -1.360793
       _connectedNodes:
       - _nodeId: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
       - _nodeId: 1
         _weight: 0.66296315
       - _nodeId: 2
-        _weight: 0.8311851
+        _weight: 1.7900572
       - _nodeId: 3
         _weight: -0.6562662
       - _nodeId: 4
@@ -141,7 +141,7 @@ MonoBehaviour:
       _layer: 1
     - _id: 13
       _value: 0
-      _bias: 1.317698
+      _bias: 0.6460488
       _connectedNodes:
       - _nodeId: 0
         _weight: -0.959888
@@ -190,7 +190,7 @@ MonoBehaviour:
         _weight: 0.58120465
       _layer: 1
     - _id: 15
-      _value: 10.264882
+      _value: 55.626793
       _bias: 0.10499489
       _connectedNodes:
       - _nodeId: 0
@@ -240,11 +240,11 @@ MonoBehaviour:
         _weight: -0.83914685
       _layer: 1
     - _id: 17
-      _value: 19.65804
+      _value: 25.050617
       _bias: 0.17755878
       _connectedNodes:
       - _nodeId: 0
-        _weight: 0.6380551
+        _weight: 1.1762114
       - _nodeId: 1
         _weight: 1.3134041
       - _nodeId: 2
@@ -265,7 +265,7 @@ MonoBehaviour:
         _weight: -0.9814367
       _layer: 1
     - _id: 18
-      _value: 19.354042
+      _value: 36.383522
       _bias: 0.2711036
       _connectedNodes:
       - _nodeId: 0
@@ -290,11 +290,11 @@ MonoBehaviour:
         _weight: 0.8549957
       _layer: 1
     - _id: 19
-      _value: 41.52192
+      _value: 89.68466
       _bias: 0.40972444
       _connectedNodes:
       - _nodeId: 0
-        _weight: 0.62747574
+        _weight: 1.5666349
       - _nodeId: 1
         _weight: -0.06520665
       - _nodeId: 2
@@ -323,7 +323,7 @@ MonoBehaviour:
       - _nodeId: 11
         _weight: -0.9648402
       - _nodeId: 12
-        _weight: 0.24230707
+        _weight: 0.37409782
       - _nodeId: 13
         _weight: 0.89986205
       - _nodeId: 14
@@ -340,8 +340,8 @@ MonoBehaviour:
         _weight: -0.24238312
       _layer: 2
     - _id: 21
-      _value: 41.772022
-      _bias: 0.34258053
+      _value: 30.62989
+      _bias: -0.45561388
       _connectedNodes:
       - _nodeId: 10
         _weight: -0.008827567
@@ -365,7 +365,7 @@ MonoBehaviour:
         _weight: 0.09010804
       _layer: 2
     - _id: 22
-      _value: 31.419495
+      _value: 23.420036
       _bias: 0.39313528
       _connectedNodes:
       - _nodeId: 10
@@ -385,12 +385,12 @@ MonoBehaviour:
       - _nodeId: 17
         _weight: 0.092041135
       - _nodeId: 18
-        _weight: 0.87588835
+        _weight: 0.2934203
       - _nodeId: 19
         _weight: 0.85682344
       _layer: 2
     - _id: 23
-      _value: 0
+      _value: 18.188667
       _bias: -0.6110065
       _connectedNodes:
       - _nodeId: 10
@@ -415,7 +415,7 @@ MonoBehaviour:
         _weight: 0.029732823
       _layer: 2
     - _id: 24
-      _value: 26.699322
+      _value: 62.384823
       _bias: 0.21736419
       _connectedNodes:
       - _nodeId: 10
@@ -440,7 +440,7 @@ MonoBehaviour:
         _weight: 0.1409198
       _layer: 2
     - _id: 25
-      _value: 45.843292
+      _value: 136.46535
       _bias: 0.49478456
       _connectedNodes:
       - _nodeId: 10
@@ -465,7 +465,7 @@ MonoBehaviour:
         _weight: 0.17190802
       _layer: 2
     - _id: 26
-      _value: 1.1376488
+      _value: 0
       _bias: 0.21322596
       _connectedNodes:
       - _nodeId: 10
@@ -540,7 +540,7 @@ MonoBehaviour:
         _weight: -0.764375
       _layer: 2
     - _id: 29
-      _value: 0.21790409
+      _value: 29.14806
       _bias: 0.88344216
       _connectedNodes:
       - _nodeId: 10
@@ -565,7 +565,7 @@ MonoBehaviour:
         _weight: 0.3777716
       _layer: 2
     - _id: 30
-      _value: 87.30181
+      _value: 97.4979
       _bias: -0.039440274
       _connectedNodes:
       - _nodeId: 20
@@ -587,10 +587,10 @@ MonoBehaviour:
       - _nodeId: 28
         _weight: -0.5381434
       - _nodeId: 29
-        _weight: -0.57919264
+        _weight: -1.1019042
       _layer: 3
     - _id: 31
-      _value: 23.062939
+      _value: 59.099
       _bias: -0.2506138
       _connectedNodes:
       - _nodeId: 20
@@ -615,7 +615,7 @@ MonoBehaviour:
         _weight: 0.47724363
       _layer: 3
     - _id: 32
-      _value: 42.77217
+      _value: 96.727005
       _bias: 0.52745485
       _connectedNodes:
       - _nodeId: 20
@@ -640,11 +640,11 @@ MonoBehaviour:
         _weight: 0.06122458
       _layer: 3
     - _id: 33
-      _value: 0
+      _value: 75.95286
       _bias: -0.82483387
       _connectedNodes:
       - _nodeId: 20
-        _weight: 0.741783
+        _weight: -0.09740293
       - _nodeId: 21
         _weight: -0.7367797
       - _nodeId: 22
@@ -681,7 +681,7 @@ MonoBehaviour:
       - _nodeId: 25
         _weight: -0.60250664
       - _nodeId: 26
-        _weight: -0.054826856
+        _weight: 0.44708478
       - _nodeId: 27
         _weight: -0.42300832
       - _nodeId: 28
@@ -690,8 +690,8 @@ MonoBehaviour:
         _weight: -0.6853764
       _layer: 3
     - _id: 35
-      _value: 0
-      _bias: -0.41252577
+      _value: 2.859439
+      _bias: 0.47483957
       _connectedNodes:
       - _nodeId: 20
         _weight: -0.9859998
@@ -715,7 +715,7 @@ MonoBehaviour:
         _weight: -0.54730535
       _layer: 3
     - _id: 36
-      _value: 14.611031
+      _value: 0.50498646
       _bias: -0.2862147
       _connectedNodes:
       - _nodeId: 20
@@ -725,7 +725,7 @@ MonoBehaviour:
       - _nodeId: 22
         _weight: -0.58980036
       - _nodeId: 23
-        _weight: 0.12082088
+        _weight: 0.6165936
       - _nodeId: 24
         _weight: -0.6268809
       - _nodeId: 25
@@ -740,7 +740,7 @@ MonoBehaviour:
         _weight: -0.92589426
       _layer: 3
     - _id: 37
-      _value: 5.8762226
+      _value: 132.84021
       _bias: 0.17742646
       _connectedNodes:
       - _nodeId: 20
@@ -766,7 +766,7 @@ MonoBehaviour:
       _layer: 3
     - _id: 38
       _value: 0
-      _bias: -0.78113365
+      _bias: -0.545272
       _connectedNodes:
       - _nodeId: 20
         _weight: -0.054965615
@@ -790,7 +790,7 @@ MonoBehaviour:
         _weight: 0.94001293
       _layer: 3
     - _id: 39
-      _value: 0
+      _value: 21.843334
       _bias: -0.8230393
       _connectedNodes:
       - _nodeId: 20
@@ -815,11 +815,11 @@ MonoBehaviour:
         _weight: 0.49120042
       _layer: 3
     - _id: 40
-      _value: 0
+      _value: 104.10434
       _bias: -0.8523414
       _connectedNodes:
       - _nodeId: 30
-        _weight: -0.5043974
+        _weight: 0.4319067
       - _nodeId: 31
         _weight: -0.32503116
       - _nodeId: 32
@@ -865,7 +865,7 @@ MonoBehaviour:
         _weight: -0.8896501
       _layer: 4
     - _id: 42
-      _value: 20.210312
+      _value: 0
       _bias: -0.16647136
       _connectedNodes:
       - _nodeId: 30
@@ -890,8 +890,8 @@ MonoBehaviour:
         _weight: 0.4304535
       _layer: 4
     - _id: 43
-      _value: 19.38372
-      _bias: 0.9151987
+      _value: 0
+      _bias: -0.37129414
       _connectedNodes:
       - _nodeId: 30
         _weight: 0.6051395
@@ -916,7 +916,7 @@ MonoBehaviour:
       _layer: 4
     _maxLayer: 4
     _powerValueList:
-    - 53.800735
-    - 47.79207
-    - 79.446014
-    _averageValue: 60.34627
+    - 1181.4275
+    - 1180.2688
+    - 1180.5168
+    _averageValue: 1180.7377

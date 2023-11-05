@@ -12,17 +12,9 @@ public class NeuralNetworkBrain : INeuralNetworkBrain {
     private Dictionary<int, List<Node>> _layeredNodeList;
     private Dictionary<int, Node> _nodeDictonary;
 
-    [SerializeField] private float _powerValue;
+    [SerializeField] private List<float> _powerValueList;
+    [SerializeField] private float _averageValue;
 
-    public float PowerValue {
-        get {
-            return _powerValue;
-        }
-
-        set {
-            _powerValue = value;
-        }
-    }
 
     public int MaxLayer {
         get {
@@ -33,6 +25,12 @@ public class NeuralNetworkBrain : INeuralNetworkBrain {
     public Dictionary<int, List<Node>> LayeredNodeList {
         get {
             return _layeredNodeList;
+        }
+    }
+
+    public float AverageValue {
+        get {
+            return _averageValue;
         }
     }
 
@@ -68,6 +66,7 @@ public class NeuralNetworkBrain : INeuralNetworkBrain {
         _nodeList = new List<Node>();
         _layeredNodeList = new Dictionary<int, List<Node>>();
         _nodeDictonary = new Dictionary<int, Node>();
+        _powerValueList = new List<float>();
         int nodeId = 0;
         int layer = 0;
         foreach (int nodesInLayer in layerNodes) {
@@ -83,7 +82,8 @@ public class NeuralNetworkBrain : INeuralNetworkBrain {
         _nodeDictonary = new Dictionary<int, Node>();
         _nodeList = parentBrain._nodeList.ConvertAll(node => new Node(node)).ToList();
         _maxLayer = parentBrain._maxLayer;
-        _powerValue = 0;
+        _averageValue = 0;
+        _powerValueList = new List<float>();
 
         CreateDictionaries();
         if (mutate == true) {
@@ -129,8 +129,6 @@ public class NeuralNetworkBrain : INeuralNetworkBrain {
 
         }
     }
-
-
 
     public void SetInputLayer(float[] input) {
         if (_nodeList == null || _nodeList.Count == 0) {
@@ -202,7 +200,8 @@ public class NeuralNetworkBrain : INeuralNetworkBrain {
     }
 
     public void SetScore(float score) {
-        _powerValue = score;
+        _powerValueList.Add(score);
+        _averageValue = _powerValueList.Average();
     }
 
 }

@@ -9,6 +9,7 @@ public class BrainCreator : MonoBehaviour {
     [SerializeField] private int _currentBrainId;
     [SerializeField] private NeuralNetworkBrainObject _currentParentBrain;
     [SerializeField] private int _increaseMutationAmount;
+    [SerializeField] private int _currentTestCycle;
 
     public List<INeuralNetworkBrain> BrainList {
         get {
@@ -30,21 +31,33 @@ public class BrainCreator : MonoBehaviour {
         if (_currentParentBrain == null) {
             return;
         }
-        //List<NeuralNetworkBrain> bestBrainsThisBatch = GetBestBrainsOfThisBatch();
-
-        CheckBrainGeneration();
-
-        _brainList = new List<INeuralNetworkBrain>();
-        CreateBrainFromParentBrain(_currentParentBrain.Brain, 0, false);
-        while (_brainList.Count < SettingsObject.Instance.AIBrainsToCreate / 2) {
-
-            CreateBrainFromParentBrain(_currentParentBrain.Brain, _increaseMutationAmount);
+        if (_brainList == null || _brainList.Count == 0) {
+            _brainList = new List<INeuralNetworkBrain>();
+            for (int i = 0; i < SettingsObject.Instance.AIBrainsToCreate; i++) {
+                CreateBrainFromParentBrain(_currentParentBrain.Brain, 0, false);
+            }
+            return;
         }
-        while (_brainList.Count < SettingsObject.Instance.AIBrainsToCreate) {
+        if (_currentTestCycle < SettingsObject.Instance.AITestCycle) {
 
-            CreateBrainFromParentBrain(_currentParentBrain.Brain, 0);
+            _currentTestCycle = _currentTestCycle + 1;
         }
+        else {
+            _currentTestCycle = 1;
+            CheckBrainGeneration();
+            List<NeuralNetworkBrain> bestBrainsThisBatch = GetBestBrainsOfThisBatch();
 
+            _brainList = new List<INeuralNetworkBrain>();
+
+            foreach (INeuralNetworkBrain brain in bestBrainsThisBatch) {
+                CreateBrainFromParentBrain((NeuralNetworkBrain)brain, 0);
+            }
+            foreach (INeuralNetworkBrain brain in bestBrainsThisBatch) {
+                for (int i = 0; i < 9; i++) {
+                    CreateBrainFromParentBrain((NeuralNetworkBrain)brain, _increaseMutationAmount);
+                }
+            }
+        }
 
     }
 
@@ -55,7 +68,7 @@ public class BrainCreator : MonoBehaviour {
         }
         bestBrainThisGen = FindBestBrain(_brainList);
         _currentBrainId = _currentBrainId + 1;
-        if (bestBrainThisGen.PowerValue > _currentParentBrain.Brain.PowerValue) {
+        if (bestBrainThisGen.AverageValue > _currentParentBrain.Brain.AverageValue) {
             ReplaceParentBrain(bestBrainThisGen);
             _increaseMutationAmount = 0;
         }
@@ -73,7 +86,7 @@ public class BrainCreator : MonoBehaviour {
         NeuralNetworkBrain bestBrainThisGen = (NeuralNetworkBrain)brainList[0];
         foreach (NeuralNetworkBrain brain in brainList) {
 
-            if (bestBrainThisGen.PowerValue < brain.PowerValue) {
+            if (bestBrainThisGen.AverageValue < brain.AverageValue) {
                 bestBrainThisGen = brain;
             }
         }
@@ -81,18 +94,15 @@ public class BrainCreator : MonoBehaviour {
     }
     private List<NeuralNetworkBrain> GetBestBrainsOfThisBatch() {
         if (_brainList == null || _brainList.Count == 0) {
-            return null;
+            return new List<NeuralNetworkBrain>();
         }
         List<NeuralNetworkBrain> sortedList = new List<NeuralNetworkBrain>();
         foreach (NeuralNetworkBrain brain in _brainList) {
             sortedList.Add(brain);
         }
-        sortedList = sortedList.OrderByDescending(x => x.PowerValue).ToList();
-
-        sortedList.RemoveRange((sortedList.Count / 2) - 1, sortedList.Count / 2);
-
-        return sortedList;
-
+        sortedList = sortedList.OrderByDescending(x => x.AverageValue).ToList();
+        List<NeuralNetworkBrain> test = sortedList.Take(SettingsObject.Instance.AIBrainsToCreate / 10).ToList();
+        return test;
     }
 
 
