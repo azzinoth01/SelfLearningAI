@@ -10,6 +10,15 @@ public class CreateAiPlayer : MonoBehaviour {
     private bool _startSpawning;
     [SerializeField] private int _spawnCount;
 
+    public int SpawnCount
+    {
+        get
+        {
+            return _spawnCount;
+        }
+
+    }
+
     // Start is called before the first frame update
     void Start() {
         _brainCreator.CreateNewBrainGen();

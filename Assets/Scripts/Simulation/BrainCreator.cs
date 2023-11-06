@@ -8,6 +8,7 @@ public class BrainCreator : MonoBehaviour {
     private List<INeuralNetworkBrain> _brainList;
     [SerializeField] private int _currentBrainId;
     [SerializeField] private NeuralNetworkBrainObject _currentParentBrain;
+    private int _bestGeneration;
     [SerializeField] private int _increaseMutationAmount;
     [SerializeField] private int _currentTestCycle;
 
@@ -15,6 +16,32 @@ public class BrainCreator : MonoBehaviour {
         get {
             return _brainList;
         }
+    }
+
+    public int CurrentTestCycle
+    {
+        get
+        {
+            return _currentTestCycle;
+        }
+    }
+
+    public int BestGeneration
+    {
+        get
+        {
+            return _bestGeneration;
+        }
+
+    }
+
+    public int CurrentBrainId
+    {
+        get
+        {
+            return _currentBrainId;
+        }
+
     }
 
     private void Awake() {
@@ -36,6 +63,7 @@ public class BrainCreator : MonoBehaviour {
             for (int i = 0; i < SettingsObject.Instance.AIBrainsToCreate; i++) {
                 CreateBrainFromParentBrain(_currentParentBrain.Brain, 0, false);
             }
+            _bestGeneration = _currentBrainId;
             return;
         }
         if (_currentTestCycle < SettingsObject.Instance.AITestCycle) {
@@ -50,7 +78,7 @@ public class BrainCreator : MonoBehaviour {
             _brainList = new List<INeuralNetworkBrain>();
 
             foreach (INeuralNetworkBrain brain in bestBrainsThisBatch) {
-                CreateBrainFromParentBrain((NeuralNetworkBrain)brain, 0);
+                CreateBrainFromParentBrain((NeuralNetworkBrain)brain, 0,false);
             }
             foreach (INeuralNetworkBrain brain in bestBrainsThisBatch) {
                 for (int i = 0; i < 9; i++) {
@@ -111,9 +139,9 @@ public class BrainCreator : MonoBehaviour {
         _currentParentBrain = null;
         _currentParentBrain = new NeuralNetworkBrainObject();
         _currentParentBrain.Brain = brain;
-
+        _bestGeneration = _currentBrainId;
         // "Assets/ScriptableObjects/brainGen"
-        AssetDatabase.CreateAsset(_currentParentBrain, _brainStoragePath + _currentBrainId + ".asset");
+        AssetDatabase.CreateAsset(_currentParentBrain, _brainStoragePath + CurrentBrainId + ".asset");
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
     }

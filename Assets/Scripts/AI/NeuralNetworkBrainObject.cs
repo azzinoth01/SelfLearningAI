@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "ScriptableObjects/NeuralNetworkBrain", order = 1)]
+[CreateAssetMenu(fileName ="BaseBrain",menuName = "ScriptableObjects/NeuralNetworkBrain", order = 1)]
 public class NeuralNetworkBrainObject : ScriptableObject {
 
     [SerializeField] private NeuralNetworkBrain _brain;
