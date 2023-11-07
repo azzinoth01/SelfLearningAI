@@ -1,3 +1,9 @@
+﻿//===================================================
+//  Copyright @ Markus Dullnig 2023
+//  Author：Markus Dullnig
+//  Time：2023-11-07 20:27:54
+//  GitUser: azzinoth01
+//===================================================
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
@@ -18,27 +24,21 @@ public class BrainCreator : MonoBehaviour {
         }
     }
 
-    public int CurrentTestCycle
-    {
-        get
-        {
+    public int CurrentTestCycle {
+        get {
             return _currentTestCycle;
         }
     }
 
-    public int BestGeneration
-    {
-        get
-        {
+    public int BestGeneration {
+        get {
             return _bestGeneration;
         }
 
     }
 
-    public int CurrentBrainId
-    {
-        get
-        {
+    public int CurrentBrainId {
+        get {
             return _currentBrainId;
         }
 
@@ -78,7 +78,7 @@ public class BrainCreator : MonoBehaviour {
             _brainList = new List<INeuralNetworkBrain>();
 
             foreach (INeuralNetworkBrain brain in bestBrainsThisBatch) {
-                CreateBrainFromParentBrain((NeuralNetworkBrain)brain, 0,false);
+                CreateBrainFromParentBrain((NeuralNetworkBrain)brain, 0, false);
             }
             foreach (INeuralNetworkBrain brain in bestBrainsThisBatch) {
                 for (int i = 0; i < 9; i++) {

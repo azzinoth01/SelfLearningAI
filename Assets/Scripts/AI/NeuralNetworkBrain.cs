@@ -1,3 +1,9 @@
+﻿//===================================================
+//  Copyright @ Markus Dullnig 2023
+//  Author：Markus Dullnig
+//  Time：2023-11-07 20:28:25
+//  GitUser: azzinoth01
+//===================================================
 using System;
 using System.Collections.Generic;
 using System.Linq;

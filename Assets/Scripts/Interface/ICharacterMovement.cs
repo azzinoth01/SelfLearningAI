@@ -1,6 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿//===================================================
+//  Copyright @ Markus Dullnig 2023
+//  Author：Markus Dullnig
+//  Time：2023-11-07 20:29:35
+//  GitUser: azzinoth01
+//===================================================
+
 
 public interface ICharacterMovement {
 

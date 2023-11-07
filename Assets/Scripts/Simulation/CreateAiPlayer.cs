@@ -1,3 +1,9 @@
+﻿//===================================================
+//  Copyright @ Markus Dullnig 2023
+//  Author：Markus Dullnig
+//  Time：2023-11-07 20:27:39
+//  GitUser: azzinoth01
+//===================================================
 using UnityEngine;
 
 public class CreateAiPlayer : MonoBehaviour {
@@ -10,10 +16,8 @@ public class CreateAiPlayer : MonoBehaviour {
     private bool _startSpawning;
     [SerializeField] private int _spawnCount;
 
-    public int SpawnCount
-    {
-        get
-        {
+    public int SpawnCount {
+        get {
             return _spawnCount;
         }
 
