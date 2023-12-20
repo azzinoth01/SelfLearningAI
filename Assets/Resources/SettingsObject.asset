@@ -19,8 +19,8 @@ MonoBehaviour:
   _aIInputScale: 1
   _aIDeactivateSaveAIScore: 0
   _aISpawnAmount: 200
-  _aIBrainsToCreate: 2000
+  _aIBrainsToCreate: 200
   _aIRaycastMaxLength: 1000
   _aIMaxNoMoveFrames: 50
   _aIMaxOnlyRotationFrames: 50
-  _aITestCycle: 3
+  _aITestCycle: 1
